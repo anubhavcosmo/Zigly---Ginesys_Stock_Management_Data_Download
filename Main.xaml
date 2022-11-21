@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1423,2702" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:snm="clr-namespace:System.Net.Mail;assembly=System.Net.Mail" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1423,3905" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:snm="clr-namespace:System.Net.Mail;assembly=System.Net.Mail" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="38">
       <x:String>System.Activities</x:String>
@@ -99,13 +99,13 @@
       <AssemblyReference>UiPath.Platform</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1433,2637" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1433,3840" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap:VirtualizedContainerService.HintSize="1391,2547" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence sap:VirtualizedContainerService.HintSize="1391,3750" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="scg:List(snm:MailMessage)" Name="mail_lst" />
       </Sequence.Variables>
@@ -114,7 +114,7 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1329,2425" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+      <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1329,3628" sap2010:WorkflowViewState.IdRef="TryCatch_1">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -122,19 +122,19 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
         <TryCatch.Try>
-          <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: GINESYS" sap:VirtualizedContainerService.HintSize="1291,2188" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" IsIncognito="True" ScopeGuid="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Version="V2" WindowResize="Maximize">
+          <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Use Browser Chrome: GINESYS" sap:VirtualizedContainerService.HintSize="1291,3391" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" IsIncognito="True" ScopeGuid="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Version="V2" WindowResize="Maximize">
             <uix:NApplicationCard.Body>
               <ActivityAction x:TypeArguments="x:Object">
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                 </ActivityAction.Argument>
-                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1257,1962" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1257,3165" sap2010:WorkflowViewState.IdRef="Sequence_5">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uix:NClick ClickType="Single" ContinueOnError="True" DelayBefore="2" DisplayName="Click 'OK'" sap:VirtualizedContainerService.HintSize="1215,166" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Timeout="2" Version="V1">
+                  <uix:NClick ClickType="Single" ContinueOnError="True" DelayBefore="20" DisplayName="Click 'OK'" sap:VirtualizedContainerService.HintSize="1215,166" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Timeout="30" Version="V1">
                     <uix:NClick.Target>
                       <uix:TargetAnchorable BrowserURL="https://zigly.ginesys.cloud/GINESYSWeb/ui/index.html#adminorganizationsite" DesignTimeRectangle="658, 485, 67, 16" FriendlyName="'OK'" FullSelectorArgument="&lt;webctrl aria-role='presentation' id='button-1013-btnEl' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='presentation' id='button-1013-btnEl' tag='SPAN' type='' class='x-btn-button x-btn-button-default-small x-btn-text    x-btn-button-center ' aaname='' check:innerText='OK' /&gt;" Guid="94940cd1-66d4-44e6-a891-3dfb06244b3d" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEcAAAAUCAYAAADfqiBGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEDSURBVFhH7ZZNCsIwEEY9VC/lJbyB4N4juHEnLnUj6Eq60E0FoS4sikpR/CXyBRLaNB1wM6kwgUdIJxTm8TVpqzuOlOBH5BCIHAKRQyByCILImSV99f48lRn5PVODRVvXMJ9vqd5j1qgf8k3pHRywy0HTj9fVNg/idKifjeJORQ6kbI9zu5cTVjkmBZDh1iAAFOVgHSIxBlY5SAbkYHZrEAYRRs7utCx9biFglYM0oHFfw6Y2Wfe0FAxfwjhpTHIgZ39Z2eQk2bRyNnHT6DOneFC7+zlglQPQMK7xYiIgpe62Qi3U2cMuB6DxX/9zQggKIudfEDkEIodA5BCIHAKRU0ukvlKhF6aLRB1WAAAAAElFTkSuQmCC" InformativeScreenshot="5283cf3c28c985a6a520ab04678aed13.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='profDetails' title='GINESYS' /&gt;" SearchSteps="FuzzySelector, Image" Visibility="Interactive" />
                     </uix:NClick.Target>
@@ -228,7 +228,7 @@
                         <PickBranch.Trigger>
                           <uix:NCheckState DisplayName="Check App State 'Yes'" EnableIfNotExists="False" sap:VirtualizedContainerService.HintSize="203,61" sap2010:WorkflowViewState.IdRef="NCheckState_7" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Timeout="30" Version="V3">
                             <uix:NCheckState.IfExists>
-                              <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="400,524" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                              <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="916,524" sap2010:WorkflowViewState.IdRef="Sequence_17">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -266,7 +266,7 @@
                                     </Sequence>
                                   </uix:NCheckState.IfExists>
                                   <uix:NCheckState.IfNotExists>
-                                    <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="400,221" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                                    <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="400,223" sap2010:WorkflowViewState.IdRef="Sequence_16">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -419,14 +419,14 @@
                       </PickBranch>
                     </Pick>
                   </Parallel>
-                  <Sequence DisplayName="Change Date In Cube" sap:VirtualizedContainerService.HintSize="1215,90" sap2010:WorkflowViewState.IdRef="Sequence_23">
+                  <Sequence DisplayName="Change Date In Cube" sap:VirtualizedContainerService.HintSize="1215,1292" sap2010:WorkflowViewState.IdRef="Sequence_23">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="x:String" Name="from_date" />
                       <Variable x:TypeArguments="x:String" Name="to_date" />
                     </Sequence.Variables>
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
@@ -489,7 +489,7 @@
                         <OutArgument x:TypeArguments="x:String">[from_date]</OutArgument>
                       </Assign.To>
                       <Assign.Value>
-                        <InArgument x:TypeArguments="x:String">[DateTime.Now.AddDays(-3).ToString("dd/MM/yyyy")]</InArgument>
+                        <InArgument x:TypeArguments="x:String">01/08/2021</InArgument>
                       </Assign.Value>
                     </Assign>
                     <Assign sap:VirtualizedContainerService.HintSize="400,71" sap2010:WorkflowViewState.IdRef="Assign_2">
@@ -1324,7 +1324,7 @@
                       </uix:NCheckState>
                     </Sequence>
                   </Sequence>
-                  <Sequence DisplayName="Logout" sap:VirtualizedContainerService.HintSize="1215,567" sap2010:WorkflowViewState.IdRef="Sequence_51">
+                  <Sequence DisplayName="Logout" sap:VirtualizedContainerService.HintSize="1215,568" sap2010:WorkflowViewState.IdRef="Sequence_51">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>

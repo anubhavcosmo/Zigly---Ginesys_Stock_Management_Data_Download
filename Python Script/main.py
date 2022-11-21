@@ -77,7 +77,7 @@ try:
 
     #### READ CONFIG FILE
     with open(
-        "C:/Users/Administrator/Documents/Common/zigly_analytics_database_config.json"
+        "C:/Users/"+os.getlogin()+"/Documents/Common/zigly_analytics_database_config.json"
     ) as config_file:
         data = json.load(config_file)
     #### GET DATA FROM CONFIG FILE
@@ -88,7 +88,7 @@ try:
 
     #### READ CONFIG FILE
     with open(
-        "C:/Users/Administrator/Documents/Common/common_path.json"
+        "C:/Users/"+os.getlogin()+"/Documents/Common/common_path.json"
     ) as config_file:
         data = json.load(config_file)
     #### GET DATA FROM CONFIG FILE
@@ -118,34 +118,34 @@ try:
         if str(cols) == "nan":
             del grc_data_df[cols]
 
-    try:
-        grc_existing_df = read_from_database(
-            username, password, host, "ginesys", "grc_table"
-        )
-    except:
-        grc_existing_df = pd.DataFrame(columns=grc_data_df.columns.tolist())
+    # try:
+    #     grc_existing_df = read_from_database(
+    #         username, password, host, "ginesys", "grc_table"
+    #     )
+    # except:
+    #     grc_existing_df = pd.DataFrame(columns=grc_data_df.columns.tolist())
 
-    grc_data_df["type"] = "new"
-    grc_existing_df["type"] = "old"
-    grc_no_dup = pd.concat([grc_existing_df, grc_data_df], axis=0).reset_index(
-        drop=True
-    )
-    col_lst = grc_existing_df.columns.tolist()
-    col_lst.remove("type")
-    grc_no_dup = grc_no_dup.drop_duplicates(subset=col_lst).reset_index(
-        drop=True
-    )
-    grc_no_dup = grc_no_dup[grc_no_dup["type"] == "new"].reset_index(drop=True)
-    del grc_no_dup["type"]
-    if grc_no_dup.shape[0] > 0:
+    # grc_data_df["type"] = "new"
+    # grc_existing_df["type"] = "old"
+    # grc_no_dup = pd.concat([grc_existing_df, grc_data_df], axis=0).reset_index(
+    #     drop=True
+    # )
+    # col_lst = grc_existing_df.columns.tolist()
+    # col_lst.remove("type")
+    # grc_no_dup = grc_no_dup.drop_duplicates(subset=col_lst).reset_index(
+    #     drop=True
+    # )
+    # grc_no_dup = grc_no_dup[grc_no_dup["type"] == "new"].reset_index(drop=True)
+    # del grc_no_dup["type"]
+    if grc_data_df.shape[0] > 0:
         push_to_database(
             username,
             password,
             host,
             "ginesys",
             "grc_table",
-            grc_no_dup,
-            "append",
+            grc_data_df,
+            "replace",
         )
 
     # =============================================================================
@@ -170,42 +170,42 @@ try:
     product_data_df["SENT_DOCUMENT_DATE"] = pd.to_datetime(
         product_data_df["SENT_DOCUMENT_DATE"]
     )
-    for cols in product_data_df.columns.tolist():
-        if str(cols) == "nan":
-            del product_data_df[cols]
+    # for cols in product_data_df.columns.tolist():
+    #     if str(cols) == "nan":
+    #         del product_data_df[cols]
 
-    try:
-        product_existing_df = read_from_database(
-            username, password, host, "ginesys", "product_movement_table"
-        )
-    except:
-        product_existing_df = pd.DataFrame(
-            columns=product_data_df.columns.tolist()
-        )
+    # try:
+    #     product_existing_df = read_from_database(
+    #         username, password, host, "ginesys", "product_movement_table"
+    #     )
+    # except:
+    #     product_existing_df = pd.DataFrame(
+    #         columns=product_data_df.columns.tolist()
+    #     )
 
-    product_data_df["type"] = "new"
-    product_existing_df["type"] = "old"
-    product_no_dup = pd.concat(
-        [product_existing_df, product_data_df], axis=0
-    ).reset_index(drop=True)
-    col_lst = product_existing_df.columns.tolist()
-    col_lst.remove("type")
-    product_no_dup = product_no_dup.drop_duplicates(
-        subset=col_lst
-    ).reset_index(drop=True)
-    product_no_dup = product_no_dup[
-        product_no_dup["type"] == "new"
-    ].reset_index(drop=True)
-    del product_no_dup["type"]
-    if product_no_dup.shape[0] > 0:
+    # product_data_df["type"] = "new"
+    # product_existing_df["type"] = "old"
+    # product_no_dup = pd.concat(
+    #     [product_existing_df, product_data_df], axis=0
+    # ).reset_index(drop=True)
+    # col_lst = product_existing_df.columns.tolist()
+    # col_lst.remove("type")
+    # product_no_dup = product_no_dup.drop_duplicates(
+    #     subset=col_lst
+    # ).reset_index(drop=True)
+    # product_no_dup = product_no_dup[
+    #     product_no_dup["type"] == "new"
+    # ].reset_index(drop=True)
+    # del product_no_dup["type"]
+    if product_data_df.shape[0] > 0:
         push_to_database(
             username,
             password,
             host,
             "ginesys",
             "product_movement_table",
-            product_no_dup,
-            "append",
+            product_data_df,
+            "replace",
         )
 
     # =============================================================================
