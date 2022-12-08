@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1423,3905" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:snm="clr-namespace:System.Net.Mail;assembly=System.Net.Mail" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1746,3905" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:snm="clr-namespace:System.Net.Mail;assembly=System.Net.Mail" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="38">
       <x:String>System.Activities</x:String>
@@ -99,13 +99,13 @@
       <AssemblyReference>UiPath.Platform</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1433,3840" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1756,3840" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap:VirtualizedContainerService.HintSize="1391,3750" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence sap:VirtualizedContainerService.HintSize="1714,3750" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="scg:List(snm:MailMessage)" Name="mail_lst" />
       </Sequence.Variables>
@@ -114,7 +114,7 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1329,3628" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+      <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1652,3628" sap2010:WorkflowViewState.IdRef="TryCatch_1">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -122,24 +122,24 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
         <TryCatch.Try>
-          <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Use Browser Chrome: GINESYS" sap:VirtualizedContainerService.HintSize="1291,3391" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" IsIncognito="True" ScopeGuid="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Version="V2" WindowResize="Maximize">
+          <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Use Browser Chrome: GINESYS" sap:VirtualizedContainerService.HintSize="1614,3391" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" IsIncognito="True" ScopeGuid="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Version="V2" WindowResize="Maximize">
             <uix:NApplicationCard.Body>
               <ActivityAction x:TypeArguments="x:Object">
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                 </ActivityAction.Argument>
-                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1257,3165" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1580,3165" sap2010:WorkflowViewState.IdRef="Sequence_5">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uix:NClick ClickType="Single" ContinueOnError="True" DelayBefore="20" DisplayName="Click 'OK'" sap:VirtualizedContainerService.HintSize="1215,166" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Timeout="30" Version="V1">
+                  <uix:NClick ClickType="Single" ContinueOnError="True" DelayBefore="20" DisplayName="Click 'OK'" sap:VirtualizedContainerService.HintSize="1538,166" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Timeout="30" Version="V1">
                     <uix:NClick.Target>
                       <uix:TargetAnchorable BrowserURL="https://zigly.ginesys.cloud/GINESYSWeb/ui/index.html#adminorganizationsite" DesignTimeRectangle="658, 485, 67, 16" FriendlyName="'OK'" FullSelectorArgument="&lt;webctrl aria-role='presentation' id='button-1013-btnEl' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='presentation' id='button-1013-btnEl' tag='SPAN' type='' class='x-btn-button x-btn-button-default-small x-btn-text    x-btn-button-center ' aaname='' check:innerText='OK' /&gt;" Guid="94940cd1-66d4-44e6-a891-3dfb06244b3d" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEcAAAAUCAYAAADfqiBGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEDSURBVFhH7ZZNCsIwEEY9VC/lJbyB4N4juHEnLnUj6Eq60E0FoS4sikpR/CXyBRLaNB1wM6kwgUdIJxTm8TVpqzuOlOBH5BCIHAKRQyByCILImSV99f48lRn5PVODRVvXMJ9vqd5j1qgf8k3pHRywy0HTj9fVNg/idKifjeJORQ6kbI9zu5cTVjkmBZDh1iAAFOVgHSIxBlY5SAbkYHZrEAYRRs7utCx9biFglYM0oHFfw6Y2Wfe0FAxfwjhpTHIgZ39Z2eQk2bRyNnHT6DOneFC7+zlglQPQMK7xYiIgpe62Qi3U2cMuB6DxX/9zQggKIudfEDkEIodA5BCIHAKRU0ukvlKhF6aLRB1WAAAAAElFTkSuQmCC" InformativeScreenshot="5283cf3c28c985a6a520ab04678aed13.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='profDetails' title='GINESYS' /&gt;" SearchSteps="FuzzySelector, Image" Visibility="Interactive" />
                     </uix:NClick.Target>
                   </uix:NClick>
-                  <uix:NCheckState DisplayName="Check Textbox Appeared or not" sap:VirtualizedContainerService.HintSize="1215,316" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Timeout="300" Version="V3">
+                  <uix:NCheckState DisplayName="Check Textbox Appeared or not" sap:VirtualizedContainerService.HintSize="1538,316" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Timeout="300" Version="V3">
                     <uix:NCheckState.IfExists>
                       <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="400,90" sap2010:WorkflowViewState.IdRef="Sequence_6">
                         <sap:WorkflowViewStateService.ViewState>
@@ -216,26 +216,26 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </uix:NCheckState>
-                  <Parallel DisplayName="Parallel - Check 3 login conditions" sap:VirtualizedContainerService.HintSize="1215,441" sap2010:WorkflowViewState.IdRef="Parallel_7">
+                  <Parallel DisplayName="Parallel - Check 3 login conditions" sap:VirtualizedContainerService.HintSize="1538,441" sap2010:WorkflowViewState.IdRef="Parallel_7">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <Pick sap:VirtualizedContainerService.HintSize="1081,385" sap2010:WorkflowViewState.IdRef="Pick_3">
+                    <Pick sap:VirtualizedContainerService.HintSize="1404,385" sap2010:WorkflowViewState.IdRef="Pick_3">
                       <PickBranch sap:VirtualizedContainerService.HintSize="253,329" sap2010:WorkflowViewState.IdRef="PickBranch_1">
                         <PickBranch.Trigger>
                           <uix:NCheckState DisplayName="Check App State 'Yes'" EnableIfNotExists="False" sap:VirtualizedContainerService.HintSize="203,61" sap2010:WorkflowViewState.IdRef="NCheckState_7" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Timeout="30" Version="V3">
                             <uix:NCheckState.IfExists>
-                              <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="916,524" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                              <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="790,812" sap2010:WorkflowViewState.IdRef="Sequence_17">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="854,61" sap2010:WorkflowViewState.IdRef="WriteLine_11" Text="Picked Branch 1">
+                                <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="728,61" sap2010:WorkflowViewState.IdRef="WriteLine_11" Text="Picked Branch 1">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -243,7 +243,7 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </WriteLine>
-                                <uix:NClick ClickType="Single" DisplayName="Click 'Yes'" sap:VirtualizedContainerService.HintSize="854,61" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Version="V3">
+                                <uix:NClick ClickType="Single" DisplayName="Click 'Yes'" sap:VirtualizedContainerService.HintSize="728,61" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Version="V3">
                                   <uix:NClick.Target>
                                     <uix:TargetAnchorable BrowserURL="https://zigly.ginesys.cloud/GINESYSWeb/ui/index.html#adminorganizationsite" DesignTimeRectangle="894, 605, 67, 16" DesignTimeScaleFactor="1" FriendlyName="'Yes'" FullSelectorArgument="&lt;webctrl aria-role='presentation' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;a&amp;gt;span&amp;gt;span' idx='2' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='presentation' type='' class='x-btn-button x-btn-button-default-small x-btn-text    x-btn-button-center ' tag='SPAN' aaname='' check:innerText='Yes' /&gt;" Guid="a89b2e0d-179d-43af-9b7a-b4326266508c" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEcAAAAUCAYAAADfqiBGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADYSURBVFhH7ZbBDcMgDEU9IVLmQYxCJiFz5MAWLODGoRBoWveGqerDO+CgSHn6/gqklFB5j8phUDkMKodB5TAMlRMsoFnjbea2/t4sjE3O7tEsHmOdBXTdeS6Gr1WblLiaW5JmYnznbA7hTMuRGnAYznlEvwACZFp5ZQY29O8ZgEAhkwiDzpbU5LPfy/MirZUng4CcA0pP/XCScKUmQ7KeaRLsJBk5XTF/SQjd/Z+1Oujk5ITwxSyzYhPIIV5Wqxb2NZP4F5KR8yOoHAaVw6ByGFQOg8r5SMIHSdXZ2giM4jUAAAAASUVORK5CYII=" InformativeScreenshot="3cbc15a79fcd627e5578568c33d7d152.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='profDetails' title='GINESYS' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
                                   </uix:NClick.Target>
@@ -254,38 +254,126 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </uix:NClick>
-                                <uix:NCheckState DisplayName="Check App State 'Report'" sap:VirtualizedContainerService.HintSize="854,61" sap2010:WorkflowViewState.IdRef="NCheckState_6" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Timeout="30" Version="V3">
-                                  <uix:NCheckState.IfExists>
-                                    <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="400,221" sap2010:WorkflowViewState.IdRef="Sequence_15">
-                                      <sap:WorkflowViewStateService.ViewState>
-                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                        </scg:Dictionary>
-                                      </sap:WorkflowViewStateService.ViewState>
-                                      <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="338,97" sap2010:WorkflowViewState.IdRef="WriteLine_6" Text="Login Successful" />
-                                    </Sequence>
-                                  </uix:NCheckState.IfExists>
-                                  <uix:NCheckState.IfNotExists>
-                                    <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="400,223" sap2010:WorkflowViewState.IdRef="Sequence_16">
-                                      <sap:WorkflowViewStateService.ViewState>
-                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                        </scg:Dictionary>
-                                      </sap:WorkflowViewStateService.ViewState>
-                                      <Throw Exception="[new Exception(&quot;Login did not happen as report was missing.&quot;)]" sap:VirtualizedContainerService.HintSize="338,97" sap2010:WorkflowViewState.IdRef="Throw_5" />
-                                    </Sequence>
-                                  </uix:NCheckState.IfNotExists>
-                                  <uix:NCheckState.Target>
-                                    <uix:TargetAnchorable BrowserURL="https://zigly.ginesys.cloud/GINESYSWeb/ui/index.html#adminorganizationsite" DesignTimeRectangle="801, 82, 67, 36" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Report'" FullSelectorArgument="&lt;webctrl parentid='ext-element-20' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='ext-element-20' tag='A' type='' class='' aaname='Report' check:innerText='REPORT' /&gt;" Guid="b89815d5-9dc5-4dda-806c-59f2d33aa212" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEcAAAAoCAYAAACsEueQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJdSURBVGhD7ZZNa9tAEIbz1/wvRM7ptboYHUKJMIQegqG4Fx/qky651BSMQtEhuFAbAgI7EBQo6kUQEJQFg//A21mtPv0xcuODA53DA96d3Z3Zx9JqzzqdDoTdiBwGkcMgchhEDoPIYRA5DCKHQeQwiBwGkcMgchhEDoPIYXiVnME8xXq9rliliOceuvviRPRNxwaYpc3+9PcMnlNb3/EwfU6hVvkYWjtZ+OifV2O4/LtyF5gaDucIOTGCngu3N8R4YQpa3lo74obuOz03l/MryPqGX0MkitrJFB/12s4YkW7TZqMfPvyJj+AhhtKbe5lhcEB+6/1lntNDWMtV1XA4R8iJMC76zn3EVFz6s787XpLLeR6Xfe59QmMTTHsdDB8U/U4x+2wkF3Qncbb5+M7O2m35Ddu5/pXjn5z+CMETtVcJgut6/DA59ne9cS2neKp8WI05mhHCPxR7MvPa8htOKocSF7yEGF1V//ZWXD8Nn3SsWfDF9S2Wup29VvRK0dh0PijXqWjOa8u/a85rOPK1suBOIjoTFB123Y14/cy5hJ0dqHnB9Y0pGnejN5bHuCfn0cvabfkNJ5ej2xa8R31W0Cbzr04zXqcQkB+SH+yGCG+h16FXLJNV9RdnTvPA35/f8CbkEE6QHYiKzgS7jNefHMK5oLEtBRdfK5VgufG1UjSneVXYn9+s91bklH0K4Rcr/02F1cmKbC/Yutq45yhzh3G37jn785u+E8n5XxA5DCKHQeQwiBwGkcMgchhEDsPZ1mVNKBE5DCKHQeQwiBwGkcMgchhEDoPI2csafwFpmGLsPDybrgAAAABJRU5ErkJggg==" InformativeScreenshot="8461aa70bf8c2336dff54d6c1bd09b9d.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='profDetails' title='GINESYS' /&gt;" SearchSteps="FuzzySelector" Version="V1" Visibility="Interactive" />
-                                  </uix:NCheckState.Target>
-                                  <sap:WorkflowViewStateService.ViewState>
-                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                    </scg:Dictionary>
-                                  </sap:WorkflowViewStateService.ViewState>
-                                </uix:NCheckState>
-                                <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="854,61" sap2010:WorkflowViewState.IdRef="WriteLine_7" Text="Existing Login Condition Successful">
+                                <Pick sap:VirtualizedContainerService.HintSize="728,385" sap2010:WorkflowViewState.IdRef="Pick_4">
+                                  <PickBranch sap:VirtualizedContainerService.HintSize="283,329" sap2010:WorkflowViewState.IdRef="PickBranch_4">
+                                    <PickBranch.Trigger>
+                                      <uix:NCheckState DisplayName="Check App State 'You have'" sap:VirtualizedContainerService.HintSize="233,61" sap2010:WorkflowViewState.IdRef="NCheckState_16" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Timeout="30" Version="V3">
+                                        <uix:NCheckState.IfExists>
+                                          <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="400,426" sap2010:WorkflowViewState.IdRef="Sequence_54">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <uix:NClick ClickType="Single" DisplayName="Click 'OK'" sap:VirtualizedContainerService.HintSize="338,202" sap2010:WorkflowViewState.IdRef="NClick_44" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Version="V3">
+                                              <uix:NClick.Target>
+                                                <uix:TargetAnchorable BrowserURL="https://zigly.ginesys.cloud/GINESYSWeb/ui/index.html#adminorganizationsite" DesignTimeRectangle="931, 593, 75, 24" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'OK'" FullSelectorArgument="&lt;webctrl id='button-1013' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl id='button-1013' tag='A' type='' class='x-btn x-unselectable x-box-item x-toolbar-item x-btn-default-small' aaname='OK' check:innerText='OK' /&gt;" Guid="098459f1-ac32-4794-a276-46571f4aeae2" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAE8AAAAcCAYAAAAgLuLfAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEgSURBVGhD7dbLCYQwFIVhG7IJ7cQGLMACXLt3bw924MIedOnWBjKcQIJPRr1grnACPyKRWXzciUaG6/EinmB5vK7r2MXcWuHN88z+RDxBxBNEPEHEE0Q8Qerw+r43cRybKIpsWZaZaZrsHq55nttn3D32i6JY/cZbqcIDSpIkHge1bWvSNDXDMOzwgFbXtX/27dTguSkC1nYPQGiJh/tQE+dSg4fJAh6u2z2AAsrhVVW1+juHSg0epgkwRyBubxxHi4az8GhC3+4Tkwe8siz95DVNszsbQ6QGDzB3zrzli2T7/FupwUMAwWfKcqKAdva2xV7Is08VHgLM3e+8UIDq8L4U8QQRTxDxBBFPEPEEEU/QKR67llsej+v+It7jZcwPafydUj1USxwAAAAASUVORK5CYII=" InformativeScreenshot="67e4a2eec996aefe611c437e36f15c2a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='profDetails' title='GINESYS' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+                                              </uix:NClick.Target>
+                                              <uix:NClick.VerifyOptions>
+                                                <uix:VerifyExecutionOptions DisplayName="Label 'You have'" Mode="Disappears">
+                                                  <uix:VerifyExecutionOptions.Retry>
+                                                    <InArgument x:TypeArguments="x:Boolean" />
+                                                  </uix:VerifyExecutionOptions.Retry>
+                                                  <uix:VerifyExecutionOptions.Target>
+                                                    <uix:TargetAnchorable BrowserURL="https://zigly.ginesys.cloud/GINESYSWeb/ui/index.html#adminorganizationsite" DesignTimeRectangle="688, 545, 560, 34" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'You have'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='3' isleaf='1' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='x-component x-window-text x-box-item x-component-default' isleaf='1' tag='DIV' aaname='You have not updated the software for more than 3 months. It is recommended to check and update the latest available version.' check:innerText='You have not updated the software for more than 3 months. It is recommended to check and update the' /&gt;" Guid="e8f10cd2-1c08-4fd0-a012-a0c8e3447cdd" ImageBase64="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" InformativeScreenshot="8b50cf9a0ebdd3dd2344de726a5238a9.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='profDetails' title='GINESYS' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+                                                  </uix:VerifyExecutionOptions.Target>
+                                                  <uix:VerifyExecutionOptions.Timeout>
+                                                    <InArgument x:TypeArguments="x:Double" />
+                                                  </uix:VerifyExecutionOptions.Timeout>
+                                                </uix:VerifyExecutionOptions>
+                                              </uix:NClick.VerifyOptions>
+                                            </uix:NClick>
+                                            <uix:NCheckState DisplayName="Check App State 'Report'" sap:VirtualizedContainerService.HintSize="338,61" sap2010:WorkflowViewState.IdRef="NCheckState_17" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Timeout="30" Version="V3">
+                                              <uix:NCheckState.IfExists>
+                                                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="400,221" sap2010:WorkflowViewState.IdRef="Sequence_56">
+                                                  <sap:WorkflowViewStateService.ViewState>
+                                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                    </scg:Dictionary>
+                                                  </sap:WorkflowViewStateService.ViewState>
+                                                  <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="338,97" sap2010:WorkflowViewState.IdRef="WriteLine_17" Text="Login Successful" />
+                                                </Sequence>
+                                              </uix:NCheckState.IfExists>
+                                              <uix:NCheckState.IfNotExists>
+                                                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="400,221" sap2010:WorkflowViewState.IdRef="Sequence_57">
+                                                  <sap:WorkflowViewStateService.ViewState>
+                                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                    </scg:Dictionary>
+                                                  </sap:WorkflowViewStateService.ViewState>
+                                                  <Throw Exception="[new Exception(&quot;Login did not happen as report was missing.&quot;)]" sap:VirtualizedContainerService.HintSize="338,97" sap2010:WorkflowViewState.IdRef="Throw_8" />
+                                                </Sequence>
+                                              </uix:NCheckState.IfNotExists>
+                                              <uix:NCheckState.Target>
+                                                <uix:TargetAnchorable BrowserURL="https://zigly.ginesys.cloud/GINESYSWeb/ui/index.html#adminorganizationsite" DesignTimeRectangle="801, 82, 67, 36" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Report'" FullSelectorArgument="&lt;webctrl parentid='ext-element-20' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='ext-element-20' tag='A' type='' class='' aaname='Report' check:innerText='REPORT' /&gt;" Guid="b89815d5-9dc5-4dda-806c-59f2d33aa212" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEcAAAAoCAYAAACsEueQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJdSURBVGhD7ZZNa9tAEIbz1/wvRM7ptboYHUKJMIQegqG4Fx/qky651BSMQtEhuFAbAgI7EBQo6kUQEJQFg//A21mtPv0xcuODA53DA96d3Z3Zx9JqzzqdDoTdiBwGkcMgchhEDoPIYRA5DCKHQeQwiBwGkcMgchhEDoPIYXiVnME8xXq9rliliOceuvviRPRNxwaYpc3+9PcMnlNb3/EwfU6hVvkYWjtZ+OifV2O4/LtyF5gaDucIOTGCngu3N8R4YQpa3lo74obuOz03l/MryPqGX0MkitrJFB/12s4YkW7TZqMfPvyJj+AhhtKbe5lhcEB+6/1lntNDWMtV1XA4R8iJMC76zn3EVFz6s787XpLLeR6Xfe59QmMTTHsdDB8U/U4x+2wkF3Qncbb5+M7O2m35Ddu5/pXjn5z+CMETtVcJgut6/DA59ne9cS2neKp8WI05mhHCPxR7MvPa8htOKocSF7yEGF1V//ZWXD8Nn3SsWfDF9S2Wup29VvRK0dh0PijXqWjOa8u/a85rOPK1suBOIjoTFB123Y14/cy5hJ0dqHnB9Y0pGnejN5bHuCfn0cvabfkNJ5ej2xa8R31W0Cbzr04zXqcQkB+SH+yGCG+h16FXLJNV9RdnTvPA35/f8CbkEE6QHYiKzgS7jNefHMK5oLEtBRdfK5VgufG1UjSneVXYn9+s91bklH0K4Rcr/02F1cmKbC/Yutq45yhzh3G37jn785u+E8n5XxA5DCKHQeQwiBwGkcMgchhEDsPZ1mVNKBE5DCKHQeQwiBwGkcMgchhEDoPI2csafwFpmGLsPDybrgAAAABJRU5ErkJggg==" InformativeScreenshot="8461aa70bf8c2336dff54d6c1bd09b9d.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='profDetails' title='GINESYS' /&gt;" SearchSteps="FuzzySelector" Version="V1" Visibility="Interactive" />
+                                              </uix:NCheckState.Target>
+                                              <sap:WorkflowViewStateService.ViewState>
+                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                </scg:Dictionary>
+                                              </sap:WorkflowViewStateService.ViewState>
+                                            </uix:NCheckState>
+                                          </Sequence>
+                                        </uix:NCheckState.IfExists>
+                                        <uix:NCheckState.IfNotExists>
+                                          <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="400,114" sap2010:WorkflowViewState.IdRef="Sequence_55">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                          </Sequence>
+                                        </uix:NCheckState.IfNotExists>
+                                        <uix:NCheckState.Target>
+                                          <uix:TargetAnchorable BrowserURL="https://zigly.ginesys.cloud/GINESYSWeb/ui/index.html#adminorganizationsite" DesignTimeRectangle="688, 545, 560, 34" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'You have'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='3' isleaf='1' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='x-component x-window-text x-box-item x-component-default' isleaf='1' tag='DIV' aaname='You have not updated the software for more than 3 months. It is recommended to check and update the latest available version.' check:innerText='You have not updated the software for more than 3 months. It is recommended to check and update the' /&gt;" Guid="80fbf125-cb65-4697-864a-393e2a4dc67a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAjQAAAAmCAYAAADTCgG6AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAukSURBVHhe7Z09khXHEkbZEbsAE1PaAStgAywAXxiyhM8G8FgAJj4uuLjz4kxwRp+SqjtzxZ2BfvpOREd3Z+VfZdXtzrlCM4+uSimllFIOThuaUkoppRyeNjSllFJKOTxtaEoppZRyeNrQlFJKKeXwtKEppZRSyuFpQ1NKKaWUw3PT0Lx8+fLq/fv33+6urj5+/Hj14sWLq69fv36TnA/+/vrrr293vxbklfO9JLf5/vz583W9z6ntzmbKX716db12DwHzfPTo0dWff/55nQO5PDTUmRyIfxRyf7BWrNklYR2ePn16XReO+9rnK9iHuReI/SPPgNzf03dCnOfPn3/3+fivcW69s77JTn4ul9jfp9b9Etyn//t4F1zq+UHs169ff7tbc1v+O/6t3Y9y09DMBuYSL8ZzP1wPyX0W/Dbf/2YT72ym/KEamozLwTWyh+Rnxf1Rcn9c4oF/Cvz//vvvD1ajuSY/+gz4FfbZkTi33lnfZCc/l0vs7/te9/v0fx/vgks9P4j9f9vQAIUlCQ6ugWt/0uOnPhedQni9WxRsKbY/LeoTfWWPHz++XpSMCdz7wcwclCW7OJC25o8PZakL5PL27dtvd38vjJueMW0zF8aQMR8aQ2xSrv5q7vjmp0tk5giMoYOccXxljVe+qMMff/xxLeMwD8h5p1yyVs4tY2iX+XI8e/bs5vrdu3fXeToHrvWFLdc5L+drfcnfuWTs1U/fs7Yzr4zr/sAmyTHj6jd1V3WArPesjXNLyEkf+DeeNjlP8+BYzUUfp3BPTGZc/Jpb5nCXmprH1EVnl+9tdRLk2Hz58uU73wnz8XPLmHrmKzlvDvLY6VuPlKdMew58Mk/kXBOH/eSegqzFXfeaMTLvlEPmhI65Mq5+1tjc9IONviDjm2f64jDGJGuJ31N5r+YJ0wdyzuhrM+PnnJyrdq5LrkXGpuHnmY0sQfdS74KMZx4rGb6tlfNIiMMYB3Gw4XxOfYVxG5rpdyfLtXHOMw7f2E+7h+IfDQ3FISEOrjnypzsmYIJ3bWhcFMZYXHwm3LPh0CGuPpGZA9eiPNnF4djlzzV2E2x2m5j8tMcnvtFnnDF01Ju+kWOLHUfWK+fEmfvpJ2Mk0xfX5ogvasEY9m5A7s1FuMZ/ymYO+LOeGXf64xob7lkX89mtHXkZa5dj5i+ruOogy/Vxf0xyDF0eLMjw7T4yN+SQdSCm84PVWk7IMX09efLkxgZfjknOM/PNHCfE8AGD3iTj4guf1i5z4Pq2ms5amSvs9PCp31Nghz9sp+8En3xuGZv7OEEv680518j1I+9ZuymzNtwjz/qphw33kLUgxm6v5RwZxy9jq33CvXtRuXms9qK5Yguc5zwBf/hSnn4Zcx8kMxdAtsr71DynD3U/ffq03e+JvpyreSPHD+R8VjEB+X28C9Bzz2GLH3RhtWYT8wB0zqlvwtjqG5rMYcbKfNQzZpJ2D8l3/yiY5Jw45yxCFv+uDU3aszmyUHZxbgBk2KS/1POYhdrFQZby6XdVcOx2mxhb5wzcM+ZZ0jf+eHCRd3bm5sE1D7mcH/X48OHD9YcXHUibZMpzMyLj2wPO6GQMc0nQcS2A8cwB9J9x9Y8MmDs1QO/NmzfXYzyMUodrc9FPjmNr3VIvSRsOctceXAfzWZFj2JoLuI9O1SHrjf1qLdMO5v7Ah5gvMDb3zpxLfqZWMLZ7WBt31t4cuL9rTc1j5Wulx8GcGD8FflyT6TvBn59bdFZ1h5w3kFuuFwc54WPmNmX6mnlZI0DmSwOZtch5waxL5oPezBtf+sv6KsP/pZ4rXO/2QTJzgV3eu3mufJADOfPinjET7NMXdpzNm7PvrZzP1BNydE+Bc17pc8+YZ9HGa/Nzf+IDG68v9fzY1Tchnntzxs6cV/mnHofPJ0m7h+S7hmZOgEOy+D/S0CC3uGnr4jC+y2HFLs60zVjIjZFgd6lNjG5+cJgb/jOPqSPoXbqhWc13gi2bkznMHGA1B/07B8doZtClnhx+8PDNAYwjnz5WsSdpwzHr6DpwGG+SY+ZtTPfRKhfrkPVe5bDCvEAfYr7Tl3HmXMxxBzmT+9TJuFlH2OUAu5qax8rXqXzR5UGaMRLkrsn0neAT38K9+zjJeQPjUweIQ+7JlOlr5oU/9ZCd29Cs9v3MG1/6y/yV4f9Sz5WVr5yjzFxgl/dunisf6KBLQzPHJO2MiV2uC+ef1dA4BthxjZ95vVqziT7h3PomxKEe6KCLDaT/ec2xAh/kzsF12j0kJxsaJpg/3THmouTCIXciCeNZAD+0yJSjoy0HfjmMyfipBx7s4pzKn2vzT7BxI2BHbPS4J09t0nf6Tb3py68luUYfufqZP6Q+4G9V4/QFbG5tkNnQ4H9lvwJ7Hwi7Oc85cI0MuGfe2CLD/rfffrvxg67X1m764Gztd0wbrq0jMuuHj1lfyTFszAXcR9zv6jDrjd4uljCevm57IJ2aiznuYMxck4w762gOcNeaZq2mr9vytYbopS7gxzWZvhPs8Z0gy9rClJHf6vmCfH5epszazLyQoQvIzmlokK/2/Spvj11Oq72If9cQpr3M/PQL04dwP/faLu9T85w+yIH4fMtLrtMGGFdOnubOWV+cfYGnn1VMQH6pdwFy68e9NcfGXNVXbwfjGfuc+ibozAZvzi1jcV59VgRb6512D8nJhga49+slFwEopF9pUVAXJcEP9jI/tPpMW/TdEJI5rAq6iwO35T9jATJjMTf8u1j4YCy/YmMs5XwIrGH6Qq4Ncn1kPTicCz6UzTol6Yt8My8bGjAX/aWvzCHnxpn7KUc/87HOzpt7xgHdfACmT2pCzvhBP9c29dK3TJucQ+pzzv2R5NicU+6jzCXrkPWGmcMqrr6IxTU+hHzMm3F85N6Zc8kcBR3jZ65Jxp11zBzuWtPVZ04/Kz11OIgNyFIX5pqk7wSf+M58V3PPeUvmgq11sP4c5pUy8571Q9f8kJ3T0ABn9xoHdjNvZMaYOWWM1V7ETtldnyvTl7EnxFAH+1N5r+YJ00fWl2tzTtLX7pnC2bVIfZ5N2KiXYI8Oc8cnOeo3n/n4A/NTjl9ssn6z5lzrI/U4XLPE3LHj+tz6StbDmmfOkLEg14Y88cGYMvOddg/Fdw1NWTM/HKWUUv579F3w69KG5o50E5dSSum74NelDU0ppZRSDk8bmlJKKaUcnjY0pZRSSjk8bWhKKaWUcnja0JRSSinl8LShKaWUUsrhaUNTSimllMNz0YaG/zff3xTor1TewW835LcJTpDxWzN/Bvx2RH6Lo7/BsZRSSinH4N6+oTliQ1NKKaWUY3LT0NB8+Dck+BsMNBZ8Y8G3LsI938Aw5t+I8O85QP49EhuanS4NDfqOGScbGr4p8e9ipK2Qi98IAdfkuLLztzsS1/mhjw4HdrvYHMZBBz+O9RudUkop5eez/IaGlzYvfhoBXtjZhDCW2OTAqqFJUtemgGbA5mE2FRnPnBJk/CEtfeCTmCs7Y2Rjoq0gMza+1MWnf1yRgz9jzxnQI+9SSiml/Dz+0dDwAvcbCZsNZLyweanz8rYB4FpdrmHX0Kx0Z3NEHA5k+MHWb4w8zCnRDwfXO7svX75cxzYnGxzzgYzNmLpgHYwjyNrQlFJKKT+Xm4aGl7Ivd17kXPPS9wWeL26bD8gX/Kqh2elyVhfUQ7ZrKlaQE3bG3tkxl2xoBHuaHs6nYhNDnTY0pZRSyq/FTUNjQwG8oHmh0wTYCGQzwLUvcWy4h1VDs9PlbDz08j/p4MdvUNTZgS3/6Ygmw3xXds4jmxQhP/SNDafyWzU06KwaqVJKKaXcP8t/FMyLmRc6TQDwYrcRAV7q/mNemwlYNTQ7Xc7cI/cbEkDfpiJz4tg1N9l8wMpuNjSZF7rmuoud+bWhKaWUUn4tlv8ouJRSSinlSLShKaWUUsrhaUNTSimllMPThqaUUkoph6cNTSmllFIOTxuaUkoppRycq6v/AQuqiPkQ9MQrAAAAAElFTkSuQmCC" InformativeScreenshot="3d1d64323c4a78b75b514b1cc9c4be22.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='profDetails' title='GINESYS' /&gt;" SearchSteps="FuzzySelector" Version="V1" Visibility="Interactive" />
+                                        </uix:NCheckState.Target>
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                      </uix:NCheckState>
+                                    </PickBranch.Trigger>
+                                  </PickBranch>
+                                  <PickBranch sap:VirtualizedContainerService.HintSize="271,329" sap2010:WorkflowViewState.IdRef="PickBranch_5">
+                                    <PickBranch.Trigger>
+                                      <uix:NCheckState DisplayName="Check App State 'Report'" sap:VirtualizedContainerService.HintSize="221,61" sap2010:WorkflowViewState.IdRef="NCheckState_6" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Timeout="30" Version="V3">
+                                        <uix:NCheckState.IfExists>
+                                          <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="400,221" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="338,97" sap2010:WorkflowViewState.IdRef="WriteLine_6" Text="Login Successful" />
+                                          </Sequence>
+                                        </uix:NCheckState.IfExists>
+                                        <uix:NCheckState.IfNotExists>
+                                          <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="400,221" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <Throw Exception="[new Exception(&quot;Login did not happen as report was missing.&quot;)]" sap:VirtualizedContainerService.HintSize="338,97" sap2010:WorkflowViewState.IdRef="Throw_5" />
+                                          </Sequence>
+                                        </uix:NCheckState.IfNotExists>
+                                        <uix:NCheckState.Target>
+                                          <uix:TargetAnchorable BrowserURL="https://zigly.ginesys.cloud/GINESYSWeb/ui/index.html#adminorganizationsite" DesignTimeRectangle="801, 82, 67, 36" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Report'" FullSelectorArgument="&lt;webctrl parentid='ext-element-20' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='ext-element-20' tag='A' type='' class='' aaname='Report' check:innerText='REPORT' /&gt;" Guid="b89815d5-9dc5-4dda-806c-59f2d33aa212" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEcAAAAoCAYAAACsEueQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJdSURBVGhD7ZZNa9tAEIbz1/wvRM7ptboYHUKJMIQegqG4Fx/qky651BSMQtEhuFAbAgI7EBQo6kUQEJQFg//A21mtPv0xcuODA53DA96d3Z3Zx9JqzzqdDoTdiBwGkcMgchhEDoPIYRA5DCKHQeQwiBwGkcMgchhEDoPIYXiVnME8xXq9rliliOceuvviRPRNxwaYpc3+9PcMnlNb3/EwfU6hVvkYWjtZ+OifV2O4/LtyF5gaDucIOTGCngu3N8R4YQpa3lo74obuOz03l/MryPqGX0MkitrJFB/12s4YkW7TZqMfPvyJj+AhhtKbe5lhcEB+6/1lntNDWMtV1XA4R8iJMC76zn3EVFz6s787XpLLeR6Xfe59QmMTTHsdDB8U/U4x+2wkF3Qncbb5+M7O2m35Ddu5/pXjn5z+CMETtVcJgut6/DA59ne9cS2neKp8WI05mhHCPxR7MvPa8htOKocSF7yEGF1V//ZWXD8Nn3SsWfDF9S2Wup29VvRK0dh0PijXqWjOa8u/a85rOPK1suBOIjoTFB123Y14/cy5hJ0dqHnB9Y0pGnejN5bHuCfn0cvabfkNJ5ej2xa8R31W0Cbzr04zXqcQkB+SH+yGCG+h16FXLJNV9RdnTvPA35/f8CbkEE6QHYiKzgS7jNefHMK5oLEtBRdfK5VgufG1UjSneVXYn9+s91bklH0K4Rcr/02F1cmKbC/Yutq45yhzh3G37jn785u+E8n5XxA5DCKHQeQwiBwGkcMgchhEDsPZ1mVNKBE5DCKHQeQwiBwGkcMgchhEDoPI2csafwFpmGLsPDybrgAAAABJRU5ErkJggg==" InformativeScreenshot="8461aa70bf8c2336dff54d6c1bd09b9d.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='profDetails' title='GINESYS' /&gt;" SearchSteps="FuzzySelector" Version="V1" Visibility="Interactive" />
+                                        </uix:NCheckState.Target>
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                      </uix:NCheckState>
+                                    </PickBranch.Trigger>
+                                  </PickBranch>
+                                </Pick>
+                                <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="728,61" sap2010:WorkflowViewState.IdRef="WriteLine_7" Text="Existing Login Condition Successful">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -417,9 +505,116 @@
                           </uix:NCheckState>
                         </PickBranch.Trigger>
                       </PickBranch>
+                      <PickBranch sap:VirtualizedContainerService.HintSize="283,329" sap2010:WorkflowViewState.IdRef="PickBranch_6">
+                        <PickBranch.Trigger>
+                          <uix:NCheckState DisplayName="Check App State 'You have'" sap:VirtualizedContainerService.HintSize="233,61" sap2010:WorkflowViewState.IdRef="NCheckState_18" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Timeout="30" Version="V3">
+                            <uix:NCheckState.IfExists>
+                              <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="400,426" sap2010:WorkflowViewState.IdRef="Sequence_58">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <uix:NClick ClickType="Single" DisplayName="Click 'OK'" sap:VirtualizedContainerService.HintSize="338,202" sap2010:WorkflowViewState.IdRef="NClick_45" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Version="V3">
+                                  <uix:NClick.Target>
+                                    <uix:TargetAnchorable BrowserURL="https://zigly.ginesys.cloud/GINESYSWeb/ui/index.html#adminorganizationsite" DesignTimeRectangle="935, 597, 67, 16" DesignTimeScaleFactor="1" FriendlyName="'OK'" FullSelectorArgument="&lt;webctrl aria-role='presentation' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;a&amp;gt;span&amp;gt;span' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='presentation' type='' tag='SPAN' class='x-btn-button x-btn-button-default-small x-btn-text    x-btn-button-center ' aaname='' check:innerText='OK' /&gt;" Guid="da29b939-26e5-493d-9db0-532553cdf2ad" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEcAAAAUCAYAAADfqiBGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD4SURBVFhH7ZbLDYUgEEVpyCa0ExqgAAtw7d49PdiDPeiSLQ3MyyXB+MFJ3mbQZBYnhAwxmZPLoIkxklJG5TCoHAaVw6ByGKrIWZaFmqYhY0zCWkshhFTD6pxLZ/Ie9b7vT9+QQFwOmm7bdm8ezPNMXdfRuq43OZAyTdN+VhJROTkFkHGtQQA4ysG+RmIyonKQDMjBeq1BGERkOeM4nq5bDUTlIA1ovNRwrm3blqRgFpUSJslrkgM5wzDsyfHe32aTNK+eOcdBfT0vgagcgIbxjB8TASlPrxVqtWaPuByAxv/9z6khqIqcr6ByGFQOg8phUDkMKueRSD9/HOAYuS7HBgAAAABJRU5ErkJggg==" InformativeScreenshot="89ef9f93bd3b603f4e01688d996e87c6.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='profDetails' title='GINESYS' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+                                  </uix:NClick.Target>
+                                  <uix:NClick.VerifyOptions>
+                                    <uix:VerifyExecutionOptions DisplayName="Label 'You have'" Mode="Disappears">
+                                      <uix:VerifyExecutionOptions.Retry>
+                                        <InArgument x:TypeArguments="x:Boolean" />
+                                      </uix:VerifyExecutionOptions.Retry>
+                                      <uix:VerifyExecutionOptions.Target>
+                                        <uix:TargetAnchorable BrowserURL="https://zigly.ginesys.cloud/GINESYSWeb/ui/index.html#adminorganizationsite" DesignTimeRectangle="688, 545, 560, 34" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'You have'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='3' isleaf='1' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='x-component x-window-text x-box-item x-component-default' isleaf='1' tag='DIV' aaname='You have not updated the software for more than 3 months. It is recommended to check and update the latest available version.' check:innerText='You have not updated the software for more than 3 months. It is recommended to check and update the' /&gt;" Guid="af6cb2ac-c80e-4b06-b738-248fe50c9093" ImageBase64="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" InformativeScreenshot="8b50cf9a0ebdd3dd2344de726a5238a9.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='profDetails' title='GINESYS' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+                                      </uix:VerifyExecutionOptions.Target>
+                                      <uix:VerifyExecutionOptions.Timeout>
+                                        <InArgument x:TypeArguments="x:Double" />
+                                      </uix:VerifyExecutionOptions.Timeout>
+                                    </uix:VerifyExecutionOptions>
+                                  </uix:NClick.VerifyOptions>
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                </uix:NClick>
+                                <uix:NCheckState DisplayName="Check App State 'Report'" sap:VirtualizedContainerService.HintSize="338,61" sap2010:WorkflowViewState.IdRef="NCheckState_19" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Timeout="30" Version="V3">
+                                  <uix:NCheckState.IfExists>
+                                    <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="400,90" sap2010:WorkflowViewState.IdRef="Sequence_60">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                      <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="338,97" sap2010:WorkflowViewState.IdRef="WriteLine_18" Text="Picked Branch 3">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                      </WriteLine>
+                                      <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="338,97" sap2010:WorkflowViewState.IdRef="WriteLine_19" Text="Login Successful Normally" />
+                                    </Sequence>
+                                  </uix:NCheckState.IfExists>
+                                  <uix:NCheckState.IfNotExists>
+                                    <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="400,90" sap2010:WorkflowViewState.IdRef="Sequence_61">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                      <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="338,97" sap2010:WorkflowViewState.IdRef="WriteLine_20" Text="Picked Branch 3">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                      </WriteLine>
+                                      <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="338,97" sap2010:WorkflowViewState.IdRef="WriteLine_21" Text="Login Error Unknown" />
+                                      <Throw Exception="[new Exception(&quot;Login did not happen as report was missing.&quot;)]" sap:VirtualizedContainerService.HintSize="338,97" sap2010:WorkflowViewState.IdRef="Throw_9" />
+                                    </Sequence>
+                                  </uix:NCheckState.IfNotExists>
+                                  <uix:NCheckState.Target>
+                                    <uix:TargetAnchorable BrowserURL="https://zigly.ginesys.cloud/GINESYSWeb/ui/index.html#adminorganizationsite" DesignTimeRectangle="801, 82, 67, 36" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Report'" FullSelectorArgument="&lt;webctrl parentid='ext-element-20' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='ext-element-20' tag='A' type='' class='' aaname='Report' check:innerText='REPORT' /&gt;" Guid="b89815d5-9dc5-4dda-806c-59f2d33aa212" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEcAAAAoCAYAAACsEueQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJdSURBVGhD7ZZNa9tAEIbz1/wvRM7ptboYHUKJMIQegqG4Fx/qky651BSMQtEhuFAbAgI7EBQo6kUQEJQFg//A21mtPv0xcuODA53DA96d3Z3Zx9JqzzqdDoTdiBwGkcMgchhEDoPIYRA5DCKHQeQwiBwGkcMgchhEDoPIYXiVnME8xXq9rliliOceuvviRPRNxwaYpc3+9PcMnlNb3/EwfU6hVvkYWjtZ+OifV2O4/LtyF5gaDucIOTGCngu3N8R4YQpa3lo74obuOz03l/MryPqGX0MkitrJFB/12s4YkW7TZqMfPvyJj+AhhtKbe5lhcEB+6/1lntNDWMtV1XA4R8iJMC76zn3EVFz6s787XpLLeR6Xfe59QmMTTHsdDB8U/U4x+2wkF3Qncbb5+M7O2m35Ddu5/pXjn5z+CMETtVcJgut6/DA59ne9cS2neKp8WI05mhHCPxR7MvPa8htOKocSF7yEGF1V//ZWXD8Nn3SsWfDF9S2Wup29VvRK0dh0PijXqWjOa8u/a85rOPK1suBOIjoTFB123Y14/cy5hJ0dqHnB9Y0pGnejN5bHuCfn0cvabfkNJ5ej2xa8R31W0Cbzr04zXqcQkB+SH+yGCG+h16FXLJNV9RdnTvPA35/f8CbkEE6QHYiKzgS7jNefHMK5oLEtBRdfK5VgufG1UjSneVXYn9+s91bklH0K4Rcr/02F1cmKbC/Yutq45yhzh3G37jn785u+E8n5XxA5DCKHQeQwiBwGkcMgchhEDsPZ1mVNKBE5DCKHQeQwiBwGkcMgchhEDoPI2csafwFpmGLsPDybrgAAAABJRU5ErkJggg==" InformativeScreenshot="8461aa70bf8c2336dff54d6c1bd09b9d.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='profDetails' title='GINESYS' /&gt;" SearchSteps="FuzzySelector" Version="V1" Visibility="Interactive" />
+                                  </uix:NCheckState.Target>
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                </uix:NCheckState>
+                              </Sequence>
+                            </uix:NCheckState.IfExists>
+                            <uix:NCheckState.IfNotExists>
+                              <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="400,114" sap2010:WorkflowViewState.IdRef="Sequence_59">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                              </Sequence>
+                            </uix:NCheckState.IfNotExists>
+                            <uix:NCheckState.Target>
+                              <uix:TargetAnchorable BrowserURL="https://zigly.ginesys.cloud/GINESYSWeb/ui/index.html#adminorganizationsite" DesignTimeRectangle="688, 545, 560, 34" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'You have'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='3' isleaf='1' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='x-component x-window-text x-box-item x-component-default' isleaf='1' tag='DIV' aaname='You have not updated the software for more than 3 months. It is recommended to check and update the latest available version.' check:innerText='You have not updated the software for more than 3 months. It is recommended to check and update the' /&gt;" Guid="b6e1e9b6-0e5c-4c65-bdf3-c65d0edeb53a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAjQAAAAmCAYAAADTCgG6AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAukSURBVHhe7Z09khXHEkbZEbsAE1PaAStgAywAXxiyhM8G8FgAJj4uuLjz4kxwRp+SqjtzxZ2BfvpOREd3Z+VfZdXtzrlCM4+uSimllFIOThuaUkoppRyeNjSllFJKOTxtaEoppZRyeNrQlFJKKeXwtKEppZRSyuFpQ1NKKaWUw3PT0Lx8+fLq/fv33+6urj5+/Hj14sWLq69fv36TnA/+/vrrr293vxbklfO9JLf5/vz583W9z6ntzmbKX716db12DwHzfPTo0dWff/55nQO5PDTUmRyIfxRyf7BWrNklYR2ePn16XReO+9rnK9iHuReI/SPPgNzf03dCnOfPn3/3+fivcW69s77JTn4ul9jfp9b9Etyn//t4F1zq+UHs169ff7tbc1v+O/6t3Y9y09DMBuYSL8ZzP1wPyX0W/Dbf/2YT72ym/KEamozLwTWyh+Rnxf1Rcn9c4oF/Cvz//vvvD1ajuSY/+gz4FfbZkTi33lnfZCc/l0vs7/te9/v0fx/vgks9P4j9f9vQAIUlCQ6ugWt/0uOnPhedQni9WxRsKbY/LeoTfWWPHz++XpSMCdz7wcwclCW7OJC25o8PZakL5PL27dtvd38vjJueMW0zF8aQMR8aQ2xSrv5q7vjmp0tk5giMoYOccXxljVe+qMMff/xxLeMwD8h5p1yyVs4tY2iX+XI8e/bs5vrdu3fXeToHrvWFLdc5L+drfcnfuWTs1U/fs7Yzr4zr/sAmyTHj6jd1V3WArPesjXNLyEkf+DeeNjlP8+BYzUUfp3BPTGZc/Jpb5nCXmprH1EVnl+9tdRLk2Hz58uU73wnz8XPLmHrmKzlvDvLY6VuPlKdMew58Mk/kXBOH/eSegqzFXfeaMTLvlEPmhI65Mq5+1tjc9IONviDjm2f64jDGJGuJ31N5r+YJ0wdyzuhrM+PnnJyrdq5LrkXGpuHnmY0sQfdS74KMZx4rGb6tlfNIiMMYB3Gw4XxOfYVxG5rpdyfLtXHOMw7f2E+7h+IfDQ3FISEOrjnypzsmYIJ3bWhcFMZYXHwm3LPh0CGuPpGZA9eiPNnF4djlzzV2E2x2m5j8tMcnvtFnnDF01Ju+kWOLHUfWK+fEmfvpJ2Mk0xfX5ogvasEY9m5A7s1FuMZ/ymYO+LOeGXf64xob7lkX89mtHXkZa5dj5i+ruOogy/Vxf0xyDF0eLMjw7T4yN+SQdSCm84PVWk7IMX09efLkxgZfjknOM/PNHCfE8AGD3iTj4guf1i5z4Pq2ms5amSvs9PCp31Nghz9sp+8En3xuGZv7OEEv680518j1I+9ZuymzNtwjz/qphw33kLUgxm6v5RwZxy9jq33CvXtRuXms9qK5Yguc5zwBf/hSnn4Zcx8kMxdAtsr71DynD3U/ffq03e+JvpyreSPHD+R8VjEB+X28C9Bzz2GLH3RhtWYT8wB0zqlvwtjqG5rMYcbKfNQzZpJ2D8l3/yiY5Jw45yxCFv+uDU3aszmyUHZxbgBk2KS/1POYhdrFQZby6XdVcOx2mxhb5wzcM+ZZ0jf+eHCRd3bm5sE1D7mcH/X48OHD9YcXHUibZMpzMyLj2wPO6GQMc0nQcS2A8cwB9J9x9Y8MmDs1QO/NmzfXYzyMUodrc9FPjmNr3VIvSRsOctceXAfzWZFj2JoLuI9O1SHrjf1qLdMO5v7Ah5gvMDb3zpxLfqZWMLZ7WBt31t4cuL9rTc1j5Wulx8GcGD8FflyT6TvBn59bdFZ1h5w3kFuuFwc54WPmNmX6mnlZI0DmSwOZtch5waxL5oPezBtf+sv6KsP/pZ4rXO/2QTJzgV3eu3mufJADOfPinjET7NMXdpzNm7PvrZzP1BNydE+Bc17pc8+YZ9HGa/Nzf+IDG68v9fzY1Tchnntzxs6cV/mnHofPJ0m7h+S7hmZOgEOy+D/S0CC3uGnr4jC+y2HFLs60zVjIjZFgd6lNjG5+cJgb/jOPqSPoXbqhWc13gi2bkznMHGA1B/07B8doZtClnhx+8PDNAYwjnz5WsSdpwzHr6DpwGG+SY+ZtTPfRKhfrkPVe5bDCvEAfYr7Tl3HmXMxxBzmT+9TJuFlH2OUAu5qax8rXqXzR5UGaMRLkrsn0neAT38K9+zjJeQPjUweIQ+7JlOlr5oU/9ZCd29Cs9v3MG1/6y/yV4f9Sz5WVr5yjzFxgl/dunisf6KBLQzPHJO2MiV2uC+ef1dA4BthxjZ95vVqziT7h3PomxKEe6KCLDaT/ec2xAh/kzsF12j0kJxsaJpg/3THmouTCIXciCeNZAD+0yJSjoy0HfjmMyfipBx7s4pzKn2vzT7BxI2BHbPS4J09t0nf6Tb3py68luUYfufqZP6Q+4G9V4/QFbG5tkNnQ4H9lvwJ7Hwi7Oc85cI0MuGfe2CLD/rfffrvxg67X1m764Gztd0wbrq0jMuuHj1lfyTFszAXcR9zv6jDrjd4uljCevm57IJ2aiznuYMxck4w762gOcNeaZq2mr9vytYbopS7gxzWZvhPs8Z0gy9rClJHf6vmCfH5epszazLyQoQvIzmlokK/2/Spvj11Oq72If9cQpr3M/PQL04dwP/faLu9T85w+yIH4fMtLrtMGGFdOnubOWV+cfYGnn1VMQH6pdwFy68e9NcfGXNVXbwfjGfuc+ibozAZvzi1jcV59VgRb6512D8nJhga49+slFwEopF9pUVAXJcEP9jI/tPpMW/TdEJI5rAq6iwO35T9jATJjMTf8u1j4YCy/YmMs5XwIrGH6Qq4Ncn1kPTicCz6UzTol6Yt8My8bGjAX/aWvzCHnxpn7KUc/87HOzpt7xgHdfACmT2pCzvhBP9c29dK3TJucQ+pzzv2R5NicU+6jzCXrkPWGmcMqrr6IxTU+hHzMm3F85N6Zc8kcBR3jZ65Jxp11zBzuWtPVZ04/Kz11OIgNyFIX5pqk7wSf+M58V3PPeUvmgq11sP4c5pUy8571Q9f8kJ3T0ABn9xoHdjNvZMaYOWWM1V7ETtldnyvTl7EnxFAH+1N5r+YJ00fWl2tzTtLX7pnC2bVIfZ5N2KiXYI8Oc8cnOeo3n/n4A/NTjl9ssn6z5lzrI/U4XLPE3LHj+tz6StbDmmfOkLEg14Y88cGYMvOddg/Fdw1NWTM/HKWUUv579F3w69KG5o50E5dSSum74NelDU0ppZRSDk8bmlJKKaUcnjY0pZRSSjk8bWhKKaWUcnja0JRSSinl8LShKaWUUsrhaUNTSimllMNz0YaG/zff3xTor1TewW835LcJTpDxWzN/Bvx2RH6Lo7/BsZRSSinH4N6+oTliQ1NKKaWUY3LT0NB8+Dck+BsMNBZ8Y8G3LsI938Aw5t+I8O85QP49EhuanS4NDfqOGScbGr4p8e9ipK2Qi98IAdfkuLLztzsS1/mhjw4HdrvYHMZBBz+O9RudUkop5eez/IaGlzYvfhoBXtjZhDCW2OTAqqFJUtemgGbA5mE2FRnPnBJk/CEtfeCTmCs7Y2Rjoq0gMza+1MWnf1yRgz9jzxnQI+9SSiml/Dz+0dDwAvcbCZsNZLyweanz8rYB4FpdrmHX0Kx0Z3NEHA5k+MHWb4w8zCnRDwfXO7svX75cxzYnGxzzgYzNmLpgHYwjyNrQlFJKKT+Xm4aGl7Ivd17kXPPS9wWeL26bD8gX/Kqh2elyVhfUQ7ZrKlaQE3bG3tkxl2xoBHuaHs6nYhNDnTY0pZRSyq/FTUNjQwG8oHmh0wTYCGQzwLUvcWy4h1VDs9PlbDz08j/p4MdvUNTZgS3/6Ygmw3xXds4jmxQhP/SNDafyWzU06KwaqVJKKaXcP8t/FMyLmRc6TQDwYrcRAV7q/mNemwlYNTQ7Xc7cI/cbEkDfpiJz4tg1N9l8wMpuNjSZF7rmuoud+bWhKaWUUn4tlv8ouJRSSinlSLShKaWUUsrhaUNTSimllMPThqaUUkoph6cNTSmllFIOTxuaUkoppRycq6v/AQuqiPkQ9MQrAAAAAElFTkSuQmCC" InformativeScreenshot="3d1d64323c4a78b75b514b1cc9c4be22.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='profDetails' title='GINESYS' /&gt;" SearchSteps="FuzzySelector" Version="V1" Visibility="Interactive" />
+                            </uix:NCheckState.Target>
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </uix:NCheckState>
+                        </PickBranch.Trigger>
+                      </PickBranch>
                     </Pick>
                   </Parallel>
-                  <Sequence DisplayName="Change Date In Cube" sap:VirtualizedContainerService.HintSize="1215,1292" sap2010:WorkflowViewState.IdRef="Sequence_23">
+                  <Sequence DisplayName="Change Date In Cube" sap:VirtualizedContainerService.HintSize="1538,1292" sap2010:WorkflowViewState.IdRef="Sequence_23">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="x:String" Name="from_date" />
                       <Variable x:TypeArguments="x:String" Name="to_date" />
