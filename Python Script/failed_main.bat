@@ -1,0 +1,1 @@
+"C:\Users\%USERNAME%\Anaconda3\envs\common\python.exe" "C:\Users\%USERNAME%\Documents\UiPath\Ginesys_Stock_Management_Data_Download\Python Script\failed_main.py"
