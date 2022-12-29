@@ -244,9 +244,9 @@ try:
             password,
             host,
             "ginesys",
-            "stock_at_point_movement_table",
+            "stock_at_point_table",
             stock_at_point_data_df,
-            "append",
+            "replace",
         )
 
     #### REMOVE FREEZE BOT KEY FILE
