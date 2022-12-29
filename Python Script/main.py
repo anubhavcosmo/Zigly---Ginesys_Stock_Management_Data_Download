@@ -231,9 +231,7 @@ try:
     stock_at_point_data_df = stock_at_point_data_df.iloc[2:-1:, :].reset_index(
         drop=True
     )
-    stock_at_point_data_df["CLOSING_STOCK_QTY"] = pd.to_datetime(
-        stock_at_point_data_df["CLOSING_STOCK_QTY"]
-    )
+    
     for cols in stock_at_point_data_df.columns.tolist():
         if str(cols) == "nan":
             del stock_at_point_data_df[cols]
