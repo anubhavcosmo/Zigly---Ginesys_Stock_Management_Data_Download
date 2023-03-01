@@ -8,10 +8,12 @@ Created on Thu Nov 17 15:49:17 2022
 import os
 import json
 from datetime import datetime
+from datetime import timedelta
 import pandas as pd
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, delete
 import sys
 import win32com.client as win32
+from sqlalchemy import create_engine, delete, Table, MetaData, Column, Integer, String, DateTime
 
 
 def push_to_database(
@@ -67,6 +69,31 @@ def test_db_connection(username, password, host):
         )
     except Exception as excp:
         raise Exception(str(excp) + "\t\t No Connection to database")
+        
+def delete_from_database(
+    username, password, host, db_name, table_name, delete_date_val
+):
+    temp_con = (
+        "mysql+pymysql://"
+        + username
+        + ":"
+        + password
+        + "@"
+        + host
+        + "/"
+        + db_name
+    )
+    engine = create_engine(temp_con)
+    conn = engine.connect()
+    
+    metadata = MetaData(bind=engine)
+    table = Table(table_name, metadata, autoload=True)
+    
+    delete_query = delete(table).where(table.c.End_Point_Date < delete_date_val)
+    result = conn.execute(delete_query)
+    
+    return result.rowcount
+
 
 
 try:
@@ -246,8 +273,13 @@ try:
             "ginesys",
             "stock_at_point_table",
             stock_at_point_data_df,
-            "replace",
+            "append",
         )
+        
+    
+    delete_date_val = str(datetime.today().date() - timedelta(days = 60))
+    print("Deleted Rows:",delete_from_database(username, password, host, "ginesys", "stock_at_point_table", delete_date_val))
+    
 
     #### REMOVE FREEZE BOT KEY FILE
     os.remove("temp_file_delete.txt")
@@ -279,6 +311,7 @@ try:
     # mail.Attachments.Add(attachment)
 
     mail.Send()
+    
 except:
     try:
         os.remove("temp_file_delete.txt")
