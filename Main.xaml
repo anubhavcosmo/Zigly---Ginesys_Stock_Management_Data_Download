@@ -234,14 +234,14 @@
                         <PickBranch.Trigger>
                           <uix:NCheckState DisplayName="Check App State 'Yes'" EnableIfNotExists="False" sap:VirtualizedContainerService.HintSize="200,52" sap2010:WorkflowViewState.IdRef="NCheckState_7" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Timeout="30" Version="V3">
                             <uix:NCheckState.IfExists>
-                              <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="782,784" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                              <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="782,757" sap2010:WorkflowViewState.IdRef="Sequence_17">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="720,52" sap2010:WorkflowViewState.IdRef="WriteLine_11" Text="Picked Branch 1">
+                                <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="2498,52" sap2010:WorkflowViewState.IdRef="WriteLine_11" Text="Picked Branch 1">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -249,7 +249,7 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </WriteLine>
-                                <uix:NClick ClickType="Single" DisplayName="Click 'Yes'" sap:VirtualizedContainerService.HintSize="720,52" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Version="V3">
+                                <uix:NClick ClickType="Single" DisplayName="Click 'Yes'" sap:VirtualizedContainerService.HintSize="2498,52" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Version="V3">
                                   <uix:NClick.Target>
                                     <uix:TargetAnchorable BrowserURL="https://zigly.ginesys.cloud/GINESYSWeb/ui/index.html#adminorganizationsite" DesignTimeRectangle="894, 605, 67, 16" DesignTimeScaleFactor="1" FriendlyName="'Yes'" FullSelectorArgument="&lt;webctrl aria-role='presentation' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;a&amp;gt;span&amp;gt;span' idx='2' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='presentation' type='' class='x-btn-button x-btn-button-default-small x-btn-text    x-btn-button-center ' tag='SPAN' aaname='' check:innerText='Yes' /&gt;" Guid="a89b2e0d-179d-43af-9b7a-b4326266508c" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEcAAAAUCAYAAADfqiBGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADYSURBVFhH7ZbBDcMgDEU9IVLmQYxCJiFz5MAWLODGoRBoWveGqerDO+CgSHn6/gqklFB5j8phUDkMKodB5TAMlRMsoFnjbea2/t4sjE3O7tEsHmOdBXTdeS6Gr1WblLiaW5JmYnznbA7hTMuRGnAYznlEvwACZFp5ZQY29O8ZgEAhkwiDzpbU5LPfy/MirZUng4CcA0pP/XCScKUmQ7KeaRLsJBk5XTF/SQjd/Z+1Oujk5ITwxSyzYhPIIV5Wqxb2NZP4F5KR8yOoHAaVw6ByGFQOg8r5SMIHSdXZ2giM4jUAAAAASUVORK5CYII=" InformativeScreenshot="3cbc15a79fcd627e5578568c33d7d152.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='profDetails' title='GINESYS' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
                                   </uix:NClick.Target>
@@ -260,7 +260,7 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </uix:NClick>
-                                <Pick sap:VirtualizedContainerService.HintSize="720,366" sap2010:WorkflowViewState.IdRef="Pick_4">
+                                <Pick sap:VirtualizedContainerService.HintSize="2498,366" sap2010:WorkflowViewState.IdRef="Pick_4">
                                   <PickBranch sap:VirtualizedContainerService.HintSize="279,319" sap2010:WorkflowViewState.IdRef="PickBranch_4">
                                     <PickBranch.Trigger>
                                       <uix:NCheckState DisplayName="Check App State 'You have'" sap:VirtualizedContainerService.HintSize="229,52" sap2010:WorkflowViewState.IdRef="NCheckState_16" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Timeout="30" Version="V3">
@@ -379,7 +379,7 @@
                                     </PickBranch.Trigger>
                                   </PickBranch>
                                 </Pick>
-                                <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="720,52" sap2010:WorkflowViewState.IdRef="WriteLine_7" Text="Existing Login Condition Successful">
+                                <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="2498,52" sap2010:WorkflowViewState.IdRef="WriteLine_7" Text="Existing Login Condition Successful">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -411,7 +411,7 @@
                         <PickBranch.Trigger>
                           <uix:NCheckState DisplayName="Check App State 'Authentication Error'" EnableIfNotExists="False" sap:VirtualizedContainerService.HintSize="289,52" sap2010:WorkflowViewState.IdRef="NCheckState_8" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Timeout="30" Version="V3">
                             <uix:NCheckState.IfExists>
-                              <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="400,474" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                              <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="400,467" sap2010:WorkflowViewState.IdRef="Sequence_18">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -461,7 +461,7 @@
                         <PickBranch.Trigger>
                           <uix:NCheckState DisplayName="Check App State 'You have'" sap:VirtualizedContainerService.HintSize="229,52" sap2010:WorkflowViewState.IdRef="NCheckState_18" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Timeout="10" Version="V3">
                             <uix:NCheckState.IfExists>
-                              <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="916,794" sap2010:WorkflowViewState.IdRef="Sequence_58">
+                              <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="916,785" sap2010:WorkflowViewState.IdRef="Sequence_58">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -580,7 +580,7 @@
                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <uix:NClick ClickType="Single" DisplayName="Click 'Admin'" sap:VirtualizedContainerService.HintSize="434,193" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Version="V3">
+                    <uix:NClick ClickType="Single" DisplayName="Click 'Admin'" sap:VirtualizedContainerService.HintSize="400,193" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Version="V3">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="https://zigly.ginesys.cloud/GINESYSWeb/ui/index.html#dashboard-admin" DesignTimeRectangle="161, 83, 64, 35" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Admin'" FullSelectorArgument="&lt;webctrl id='ext-element-51' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl id='ext-element-51' tag='A' type='' class='' aaname='Admin' check:innerText='ADMIN' /&gt;" Guid="25d2b244-0acf-462f-82c2-59d152293994" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEQAAAAnCAYAAAC2c+5GAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALESURBVGhD7ZZBaxpBFID7d3LLpT9AcsrNU2495ebFHgpeinjYi9XLIktQuhBEJOilRTDb0CoFtTWm0ASEzUH2UBRaFWT/wOubmd119mUl2hYD3Tl84M68Ged9M292nyUSCVCsCQlJJpOhzjhAcw6EFAoFcF03lrDcQ0KYpX6/HxkcB1juISGMqMA4oYQQlBCCEkJQQghKCEEJISghBCWE8E+E3Lw7grR+AMXPM9LXhzK2sz7Bc8i8fQn1oQPLIMaBlin6c5YtjRUsv2TFWLMGEzm+6X9Re/9RykL3Z3js16Y8bjv+XsiiA0YpCcXaCaTPmzAN9YvF5tojmM4cGH+zoNV8Aa+wLYMJ/eIxayFpQ4eblTx+BpfnGGug8MeEMOqWN6fgSYQsB7iDFRPsexNy+gk07uV+sVjtypHaXJhcnWICfqyXYD0Lhn4I5dE6zuVzpiCPUh4TkmtooOlHUL6eB+OfQIjYQXHU5d9+f7QQd2Fh8geQ/8Ta/QQt6F0cQvqiE5TTuJ3kz91QYtFCtCsbJh9QtKFBzyud/QtxargrKbj8IZ6n3RQ/9t+DmA1CQu1Sgrc6ZPz5ViOoYqlUb2lim4TgXKs7aFSwxBodXjp7F2JbeG/gYsKIJETMBiGz91DEdmPAjrecoM0TYvH8MvXkbi2EPduszI6x9Ob7FsJ2EI/9RxsvzJmHDS1W78GxjxYybqNIfCv0Fuw5nCA/ZZU3YFbX5beTEITPf4Zz1PcphB/vU2g54XZ+YQbJisXKb5lGDe8FbwfFGJKgd3rSUinuKsQvHX5i9yNkLi7Asglj2odH9jUuJN9l3yRisUE5lY5Bq51BLySRJujNLV2uOwth8A2Tx23HHwr5f1FCCEoIQQkhKCEEJYSghBCUEEIgJKozzighBCWEoIQQlBCCEkJQQgiRQq4HgwdtceGBkOFwGGMhLvwG4Rmps1TiphAAAAAASUVORK5CYII=" InformativeScreenshot="4bbb4f1f1f09b80e929f46bcfa9c17f6.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='profDetails' title='GINESYS' /&gt;" SearchSteps="FuzzySelector" Version="V1" Visibility="Interactive" />
                       </uix:NClick.Target>
@@ -598,7 +598,7 @@
                         </uix:VerifyExecutionOptions>
                       </uix:NClick.VerifyOptions>
                     </uix:NClick>
-                    <uix:NClick ClickType="Single" DisplayName="Click 'Utilities'" sap:VirtualizedContainerService.HintSize="434,193" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Version="V3">
+                    <uix:NClick ClickType="Single" DisplayName="Click 'Utilities'" sap:VirtualizedContainerService.HintSize="400,193" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Version="V3">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="https://zigly.ginesys.cloud/GINESYSWeb/ui/index.html#dashboard-admin" DesignTimeRectangle="339, 117, 43, 17" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Utilities'" FullSelectorArgument="&lt;webctrl id='ext-element-48' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id='ext-element-48' tag='SPAN' type='' class='' aaname='Utilities' check:innerText='Utilities' /&gt;" Guid="0f19884c-857a-4395-85d3-8eb74628e47a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAC8AAAAVCAYAAADWxrdnAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEHSURBVFhH7ZRtDoMgDIY5IYnnMRwFT4Ln8Ae34AId5UMoQrbMLWjkx5sM27d9LJ3MGAN31YDvpQHfS8+G1wsHNknQeN4kcCZAuZgCwRiIleZXfV+KwKuZAV80STBGg5w4yC2cV9FuSuCp6rXP6Tnw7qrtKkThSrhns/K5h7VBH/qTh4U48cVzzMmex/XzsWyIVqcn/x7e55W1ia+omXL9i7f+NxeArwBij1CzzuR1Gfi0VkF7jxQv2Qg8AdmFEBHI6i/w2XCaOt4QgffNaSFsSl7o5/Dhd1azpbIGhUchXPX6otI1fva1CT4XQ5+PE5+VG1LW10+4WKl8iFZH+BtpwPfSgO8jAy9Sd54GssD8owAAAABJRU5ErkJggg==" InformativeScreenshot="5447f2dd80d793e5def8cbb5d63ca2e9.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='profDetails' title='GINESYS' /&gt;" SearchSteps="FuzzySelector" Version="V1" Visibility="Interactive" />
                       </uix:NClick.Target>
@@ -616,7 +616,7 @@
                         </uix:VerifyExecutionOptions>
                       </uix:NClick.VerifyOptions>
                     </uix:NClick>
-                    <uix:NClick ClickType="Single" DisplayName="Click 'Cube Manager'" sap:VirtualizedContainerService.HintSize="434,193" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Version="V3">
+                    <uix:NClick ClickType="Single" DisplayName="Click 'Cube Manager'" sap:VirtualizedContainerService.HintSize="400,193" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Version="V3">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="https://zigly.ginesys.cloud/GINESYSWeb/ui/index.html#" DesignTimeRectangle="50, 291, 75, 15" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Cube Manager'" FullSelectorArgument="&lt;webctrl class='x-grid-item' idx='4' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='x-grid-item' tag='TABLE' /&gt;&lt;webctrl type='' tag='SPAN' class='x-tree-node-text ' aaname='Cube Manager' check:innerText='Cube Manager' /&gt;" Guid="9265e307-2960-4a6a-9543-4b0474da54b2" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAE8AAAATCAYAAADReFAKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHcSURBVFhH7ZbRjcMgDIYzIVLmqRiFTJLO0YdskQU422CwUxMl5R7uVB5+qXLMj/3ZaTvt+x6HPtOA16EBr0MDXocGvA4NeB06hbctLk7TVOSfdh7pFaJ7rPazC1ofcId1Hn0nF8PrEP8DasJrNtNSNzwX3ezjeoinAf4neAhiDnGznj292kBsmhrL8Ag6bapseIth5vg7oOQDcfB2yybia/RQR+A7KI99pppL50L0OV6HDuc5puoRcRiYl0MDr1N/sSAmPJy2bkLoDB6Yl2dYRB5AycF4Y0NTDjZVG8E60E+dL8KB5FxqmM9h3MgX9+IASn9Udz57qK3cq/yrfheegsIg5PSzjK1mHwYm4Sh41Cx71eZkvdviS3567eW9ekDyHpWbRbUc/Fn2a4ukje3gZ/fhyWJtKR9sUhRc4WmvEm/BU33A2QvwzKU5+LMaPxhoKFYbxdBkQbQFomlRFE2R8gwvQ3K78LMTr94bWDqDEM7hKRhYN51N9ZQFkHVjjjXogz+rAQ+VLikrXCYo4lBMkI3Bl379IuYmUdhojoOsQiS85FW3WINlH7iL4w146l6sjWsiYDkOWyd/MPSrW6HehPclUtt8T18JT/7dMV/Tixqb16EBr0MD3sfa4w/UfukFwkVlRgAAAABJRU5ErkJggg==" InformativeScreenshot="12419f4065252c5ba34ece3c6eb44a49.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='profDetails' title='GINESYS' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
                       </uix:NClick.Target>
@@ -634,15 +634,15 @@
                         </uix:VerifyExecutionOptions>
                       </uix:NClick.VerifyOptions>
                     </uix:NClick>
-                    <Assign sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_1">
+                    <Assign sap:VirtualizedContainerService.HintSize="400,62" sap2010:WorkflowViewState.IdRef="Assign_1">
                       <Assign.To>
                         <OutArgument x:TypeArguments="x:String">[from_date]</OutArgument>
                       </Assign.To>
                       <Assign.Value>
-                        <InArgument x:TypeArguments="x:String">[DateTime.Now.AddDays(-30).ToString("dd/MM/yyyy")]</InArgument>
+                        <InArgument x:TypeArguments="x:String">[DateTime.Now.AddDays(-60).ToString("dd/MM/yyyy")]</InArgument>
                       </Assign.Value>
                     </Assign>
-                    <Assign sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_2">
+                    <Assign sap:VirtualizedContainerService.HintSize="400,62" sap2010:WorkflowViewState.IdRef="Assign_2">
                       <Assign.To>
                         <OutArgument x:TypeArguments="x:String">[to_date]</OutArgument>
                       </Assign.To>
@@ -650,7 +650,7 @@
                         <InArgument x:TypeArguments="x:String">[DateTime.Now.AddDays(-1).ToString("dd/MM/yyyy")]</InArgument>
                       </Assign.Value>
                     </Assign>
-                    <Sequence DisplayName="Set Date For Site to Site Movements Data" sap:VirtualizedContainerService.HintSize="434,81" sap2010:WorkflowViewState.IdRef="Sequence_27">
+                    <Sequence DisplayName="Set Date For Site to Site Movements Data" sap:VirtualizedContainerService.HintSize="400,81" sap2010:WorkflowViewState.IdRef="Sequence_27">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -804,7 +804,7 @@
                         </ui:InterruptibleWhile.Body>
                       </ui:InterruptibleWhile>
                     </Sequence>
-                    <Sequence DisplayName="Set Date For Stock Pointwise Stock" sap:VirtualizedContainerService.HintSize="434,81" sap2010:WorkflowViewState.IdRef="Sequence_31">
+                    <Sequence DisplayName="Set Date For Stock Pointwise Stock" sap:VirtualizedContainerService.HintSize="400,81" sap2010:WorkflowViewState.IdRef="Sequence_31">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -835,7 +835,7 @@
                           </uix:VerifyExecutionOptions>
                         </uix:NClick.VerifyOptions>
                       </uix:NClick>
-                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Date From:*'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="932,263" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Text="[from_date]" Version="V3">
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Date From:*'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="932,254" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Text="[from_date]" Version="V3">
                         <uix:NTypeInto.Target>
                           <uix:TargetAnchorable BrowserURL="https://zigly.ginesys.cloud/GINESYSWeb/ui/index.html#admincubemanager" DesignTimeRectangle="401, 310, 630, 20" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'01/04/2022'" FullSelectorArgument="&lt;webctrl id='date_DateFrom' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='date_DateFrom' tag='INPUT' type='text' class='x-form-field x-form-required-field x-form-text x-form-text-default  ' aaname='Date From:*' /&gt;" Guid="eaa037d2-4de2-48ba-b7be-326d9bb38735" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAnoAAAAYCAYAAABtCVB0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKCSURBVHhe7duxTSRBEAXQy4k0yIEMSIAA8PEJAhuLAMDDhRAwMef0lytU6utZxGmNo/WeVGKnp6tm1vsadn5tAAAs6RD0np6elFJKKaXUYvUZ9AAAWIugBwCwKEEPAGBRgh4AwKIEPQCARQl6AACLOhr0Xl5etvPz8+3s7Gy7urra3t/f/5z5cHd3N12Px8fH7ebm5vA5fzMjlfVR1i4uLra3t7c/Kx8y9/r6+nAf2VMzxr39XF0z9noyN/dd5/I9AABWsxv0EoouLy8PISsSoCoQVQBMCEuNQa8HtPRU+MpxZvaQVqFrFvQS1Kr3/v7+8zpZr4DZZ9asnI9jPc/Pz4f1sQcAYBW7Qa+HrEg4GkPdbC2yfnt7e1ivwFcys4eqfM7ehK0x6GW995Z+3QTJ/kRuvO+yd68x3hMAwAp2g94YoBLCxjC2F57Sl+A06+lz6/zr6+tf+/I5AWwWzHqYG0Pa3j3tBcDsG8MoAMAKTh70+r5ZT59bIe2rfV32jP9S/irojT1drjELgAAAP93Jg15CV/XNempunz/uy7yEr94XmT3+lu+roDfriZzPNeseAABWc9Lf6OVvjuvJ2Xgcmfnw8HAIX/XWa1Ve8Mje8doxW4seGKPv2+uZ3RcAwGp2g16egO29dVtyrge9HOcFii49FbZyfnzrNnLcn+iNL2FkfmaMfdFnZl/mJOAd68l5T/IAgNXtBr1IIKqnbbMnY2PQS3hKT1fhqz+xG/Wgl8q1amZkbXwC2GflurVeAe5YT99fNft+AAA/2dGg9x2zgPYvZmERAIDvO1nQAwDg/yLoAQAsStADAFiUoAcAsKjPoKeUUkoppdaqQ9ADAGA12/YbLKm+aEhNWHIAAAAASUVORK5CYII=" InformativeScreenshot="c18c06eb20e759de6713c863f2b47555.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='profDetails' title='GINESYS' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive">
                             <uix:TargetAnchorable.Anchors>
@@ -856,7 +856,7 @@
                           </uix:VerifyExecutionTypeIntoOptions>
                         </uix:NTypeInto.VerifyOptions>
                       </uix:NTypeInto>
-                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Date To:*'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="932,263" sap2010:WorkflowViewState.IdRef="NTypeInto_6" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Text="[to_date]" Version="V3">
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Date To:*'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="932,254" sap2010:WorkflowViewState.IdRef="NTypeInto_6" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Text="[to_date]" Version="V3">
                         <uix:NTypeInto.Target>
                           <uix:TargetAnchorable BrowserURL="https://zigly.ginesys.cloud/GINESYSWeb/ui/index.html#admincubemanager" DesignTimeRectangle="1265, 310, 630, 20" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'31/10/2022'" FullSelectorArgument="&lt;webctrl id='date_DateTo' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='date_DateTo' tag='INPUT' type='text' class='x-form-field x-form-required-field x-form-text x-form-text-default  ' aaname='Date To:*' /&gt;" Guid="8cca6abe-31f5-4b7b-ba31-02ca27936886" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAnoAAAAYCAYAAABtCVB0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJ5SURBVHhe7dyxUeNAFAbg64k26IEOaIACyMkpgpgaICPFJRAS6uYXXt/Om5Vsbi44dr5v5o2t1duVnP2ztvxrAQBgSmvQe319VUoppZRSk9Up6AEAMBdBDwBgUoIeAMCkBD0AgEkJegAAkxL0AAAmtRn0Pj8/l7u7u+Xq6mqtp6en45k/Mpae9FYvLy/Lw8PD8Wjc+/7+vlxfX6/rj9bJ8f39/dqX9dq93NzcLB8fH8eur2u1c/01t+Zc8tkAAH66zaCXUHQ4HE7vb29v18AVLaAlhKX2AtpWb10zAa0Grj4sPj8/n+ZmvAXDzM86WS/HGc/52Jvz9va2jtc5AACzuPir2wSuGoYSmEZBL+OPj4/Hoy+1N2v1u2+jtbJGxqu+N+GwD4h13Wa0fjP6bAAAP91FQS+7Zdn1ymtvKzwleJ0LhTWg1WvkNQFsFMz6MFdD2tY9bQXA9KU/8wAAZrIb9BKO6u/beqNQVQNb892gV883OV+/8j0X9OqcXq4xCoAAAD/dxTt6CXt9oIpRqErPKKB9J+ilJ+Er73tZu4bOc0FvNCdyPtcb3SsAwAwu/o1eAlPd+aqhKq85Hu2cjQJYv15/fnSt0VjUwNj3bc3Zu08AgFlsBr08cdt2wRKMsvuV4NSr4S3H9SGMpvZm7a2nbutDGJmT83VXLtI3eup2b07O28kDAGa3GfQSoNp/3G3911wNb+mpYbCpvZHetn7beUswy/u+L2P5+rX1pnJvLQzmum283efenL6/Vbs+AMAsLv7q9pxRQPsbe2ERAIDL/bOgBwDA/0XQAwCYlKAHADApQQ8AYFKnoKeUUkoppeaqNegBADCbZfkNxbjWuXOJOioAAAAASUVORK5CYII=" InformativeScreenshot="646914325451b246650ce1036f370162.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='profDetails' title='GINESYS' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive">
                             <uix:TargetAnchorable.Anchors>
@@ -877,7 +877,7 @@
                           </uix:VerifyExecutionTypeIntoOptions>
                         </uix:NTypeInto.VerifyOptions>
                       </uix:NTypeInto>
-                      <uix:NClick ClickType="Single" DisplayName="Click 'Save'" sap:VirtualizedContainerService.HintSize="932,202" sap2010:WorkflowViewState.IdRef="NClick_13" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Version="V3">
+                      <uix:NClick ClickType="Single" DisplayName="Click 'Save'" sap:VirtualizedContainerService.HintSize="932,193" sap2010:WorkflowViewState.IdRef="NClick_13" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Version="V3">
                         <uix:NClick.Target>
                           <uix:TargetAnchorable BrowserURL="https://zigly.ginesys.cloud/GINESYSWeb/ui/index.html#admincubemanager" DesignTimeRectangle="1741, 929, 90, 30" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Save'" FullSelectorArgument="&lt;webctrl id='button-1507' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl id='button-1507' tag='A' type='' class='x-btn gsl_footerDarkBtn x-unselectable x-box-item x-toolbar-item x-btn-default-toolbar-small' aaname='Save' check:innerText='Save' /&gt;" Guid="56fdd968-d68c-43cf-a4d3-9984459e73fa" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAF4AAAAiCAYAAADWMm7UAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF9SURBVGhD7ZnBqoNADEXf/+OXSNf9Bffi0k3BpQtBEETpPO5AJM83dFW8Kb2BQ8dJFDmJIvQnKSgh8aTI4p/PZ6qqSlwAXB/i930vFon3A9eH+G3bikXi/cC1xBOQeBIST0LiSUg8CYknIfEkJJ5ESPFt2+absng8HsW6TyaceEhf1zXd7/d8XNd16vv+X92nE1L8OI7FHEDOYp7n3BicY2tfh32s8cRYvLr2lYQTj0nHxJdeL8gNw5DXkAzZqMP+siypaZqjDjn8npsC8RFeXeHEA5OKeCUJOcv7Cbenxq5j+z5nxyxCijdMnBcF0T5MvJc9TVOeft9AH/4JYBFaPPCvDUg+N8HEWx0aAPEQ65tg50QhnHh8wXhREGlfOZBuom2a7Rgg72sA1hEm/Ew48RAM0Rb+09Ln8A8OptlLRpOwf55wNMMH6nyeQTjx30Io8bfbLd9MKbquK57zqWjiSUg8CYknIfEkJJ6ExJOQeBIST+KPeMX1IfGUSOkX/GcOp8OuqdMAAAAASUVORK5CYII=" InformativeScreenshot="91f5f3d792a8cbe7b41e4b8c1bf6c968.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='profDetails' title='GINESYS' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
                         </uix:NClick.Target>
@@ -1233,15 +1233,15 @@
                           </uix:VerifyExecutionOptions>
                         </uix:NClick.VerifyOptions>
                       </uix:NClick>
-                      <uix:NCheckState DisplayName="Check App State 'IMG'" sap:VirtualizedContainerService.HintSize="854,507" sap2010:WorkflowViewState.IdRef="NCheckState_13" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Timeout="300" Version="V3">
+                      <uix:NCheckState DisplayName="Check App State 'IMG'" sap:VirtualizedContainerService.HintSize="854,489" sap2010:WorkflowViewState.IdRef="NCheckState_13" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Timeout="300" Version="V3">
                         <uix:NCheckState.IfExists>
-                          <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="400,290" sap2010:WorkflowViewState.IdRef="Sequence_36">
+                          <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="400,272" sap2010:WorkflowViewState.IdRef="Sequence_36">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <uix:NClick ClickType="Single" DisplayName="Click 'Close'" sap:VirtualizedContainerService.HintSize="338,166" sap2010:WorkflowViewState.IdRef="NClick_34" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Version="V3">
+                            <uix:NClick ClickType="Single" DisplayName="Click 'Close'" sap:VirtualizedContainerService.HintSize="338,157" sap2010:WorkflowViewState.IdRef="NClick_34" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Version="V3">
                               <uix:NClick.Target>
                                 <uix:TargetAnchorable DesignTimeRectangle="1898, 1008, 24, 22" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Close'" FullSelectorArgument="&lt;ctrl name='GINESYS - Google Chrome (Incognito)' role='pane' /&gt;&lt;ctrl name='Google Chrome' role='pane' /&gt;&lt;ctrl name='Downloads bar' role='grouping' /&gt;&lt;ctrl name='Close' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='GINESYS - Google Chrome (Incognito)' role='pane' /&gt;&lt;ctrl name='Google Chrome' role='pane' /&gt;&lt;ctrl name='Downloads bar' role='grouping' /&gt;&lt;ctrl name='Close' role='push button' automationid='' check:text='Close' /&gt;" Guid="5f41c09d-4773-4198-9df9-85de35470f2a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABwAAAAaCAYAAACkVDyJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC/SURBVEhL7ZOxDoIwEIZ5KRnYdOCNNegGwmiQRyG6H/lRyFEKuTYHYejwJeT+tl+PttEpTmhPglCdIFTnmMJb9qD8WdH5ks4y1JBds/sssyESFmVF7edLr7qZSPGNGjKM4XOWEAn7hd+/hQcplyHjG1lDfIam1EcGnC4Nl/rIgLvw39nQ6WZCLkNn/Pe6SOWXxjizvuYhFQnHZ2GcGZfiLfI5S4iEePiQ2rpADRnGmJkNp0ujQRCqE4Tq7CxMqAM5/A88IFbWJQAAAABJRU5ErkJggg==" InformativeScreenshot="51a586cc5510c758caee9c4a45d1ed84.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='GINESYS - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V1" Visibility="Interactive" />
                               </uix:NClick.Target>
@@ -1249,7 +1249,7 @@
                           </Sequence>
                         </uix:NCheckState.IfExists>
                         <uix:NCheckState.IfNotExists>
-                          <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="400,114" sap2010:WorkflowViewState.IdRef="Sequence_37">
+                          <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="400,105" sap2010:WorkflowViewState.IdRef="Sequence_37">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1351,7 +1351,7 @@
                           </uix:VerifyExecutionOptions>
                         </uix:NClick.VerifyOptions>
                       </uix:NClick>
-                      <Assign sap:VirtualizedContainerService.HintSize="854,82" sap2010:WorkflowViewState.IdRef="Assign_3">
+                      <Assign sap:VirtualizedContainerService.HintSize="854,62" sap2010:WorkflowViewState.IdRef="Assign_3">
                         <Assign.To>
                           <OutArgument x:TypeArguments="x:String">[to_date]</OutArgument>
                         </Assign.To>
@@ -1359,12 +1359,12 @@
                           <InArgument x:TypeArguments="x:String">[DateTime.Now.AddDays(-1).ToString("dd-MM-yyyy")]</InArgument>
                         </Assign.Value>
                       </Assign>
-                      <Assign sap:VirtualizedContainerService.HintSize="854,82" sap2010:WorkflowViewState.IdRef="Assign_4">
+                      <Assign sap:VirtualizedContainerService.HintSize="854,62" sap2010:WorkflowViewState.IdRef="Assign_4">
                         <Assign.To>
                           <OutArgument x:TypeArguments="x:String">[from_date]</OutArgument>
                         </Assign.To>
                         <Assign.Value>
-                          <InArgument x:TypeArguments="x:String">[DateTime.Now.AddDays(-30).ToString("dd-MM-yyyy")]</InArgument>
+                          <InArgument x:TypeArguments="x:String">[DateTime.Now.AddDays(-60).ToString("dd-MM-yyyy")]</InArgument>
                         </Assign.Value>
                       </Assign>
                       <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayAfter="2" DelayBefore="5" DisplayName="Type Into 'From Date'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="854,218" sap2010:WorkflowViewState.IdRef="NTypeInto_9" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Text="[from_date]" Version="V1">
@@ -1407,7 +1407,7 @@
                           </uix:VerifyExecutionOptions>
                         </uix:NClick.VerifyOptions>
                       </uix:NClick>
-                      <uix:NClick ClickType="Single" DisplayName="Click 'Okay'" sap:VirtualizedContainerService.HintSize="854,202" sap2010:WorkflowViewState.IdRef="NClick_41" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Version="V3">
+                      <uix:NClick ClickType="Single" DisplayName="Click 'Okay'" sap:VirtualizedContainerService.HintSize="854,193" sap2010:WorkflowViewState.IdRef="NClick_41" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Version="V3">
                         <uix:NClick.Target>
                           <uix:TargetAnchorable BrowserURL="https://zigly.ginesys.cloud/GinesysReportUI/Report.aspx?sn=0&amp;showerrordetail=true&amp;_cb=view57" DesignTimeRectangle="1034, 963, 73, 32" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Okay'" FullSelectorArgument="&lt;webctrl id='uxiframe-1448-iframeEl' tag='IFRAME' /&gt;&lt;webctrl aaname='Okay' idx='2' parentid='dialogMasterContainer_0' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='uxiframe-1448-iframeEl' tag='IFRAME' /&gt;&lt;webctrl aaname='Okay' type='button' parentid='dialogMasterContainer_0' tag='BUTTON' class='wrRippleButton wrRippleButtonBold wrMenuButtonStripButton' check:innerText='Okay' /&gt;" Guid="8a7b6040-ffea-46d9-b18b-af42223f6fea" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEkAAAAgCAYAAABeiFVOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOcSURBVGhD7ZndSxRRGMbnXwm6SOjf8I/obuumm8CbvKnsYi/XgoKlDERQiIoMRYWgQMi9UMEyiVVaNI3JnHTdL93vnXl6nzMfu45eKOxsrTuDz+58nPfI++N5z9k5R7MAWPLhyjRF/BY15LxX5ObM/Ft5yB80G4x1JpR647RqdavrdVZe/txtYJYCpXlwpOHouyHcun8dN+5e6Vkxf3IgDxeW5pIbnRxC5OFV3Hl0DQNP+3pWzJ8cyMNlo9UbYkGhRoK9DsgVOZAHuZCPxpNqHcpqZwX0qsiDXMhH40m5aoWQfCIPciEfrVyzUKyEkPwiD3IhH61cBY7LISS/yINcyEcjraNSCMkv8iAX8hFIQKEUDtx+kQe5kI9GS+WKQTqpH283tlCSWUIdNR2pz7e954sZwEj6Y/69yINcyEc7ko98MTgnRb+syzSqYy0RQVSAxZeXUEIBqUS/ev4/QyIX8hFIQO44KCdFsJYH8ptN51DTegHYH1PnrZCmf8r90hLmXsn1eAzJvHidh1lB+kdMIEewkpUmeszpaxBJSST9PeJct0/KScKFfDQOTrnjoJw0Bt0U1yz47ou7UFnCtJy7kKIJcVhjC4szdpu5XQGUncXEeB+GF1fFfeLGKWmX3PJiB6Y+IC33V+T+if7bIBuSOEn4KEjZwJw0CYOl5Ye0IEBaIW1Ku0azBKnhmUG8oKPUdQypitPP+EsBf4Dkxz7EU7oCGXdi2inyIJcOQDqfk1DRkSeEFkjR+VkYJafc1NHsZ35fSngnpkrPSDZj2qkOQnLGpJ0HJ+6rMSkzKWOMDSm90Y/o8ipqBCflxTh77BlBXF37HMm2xQPkTSlP9bz96iCki8xu/eKQCmp7I9LOGZA3B1XMhPShYjxHPsF2TczlgG79f+1SRyFd6HfSzCzSMpNtL4uzEp+QdmJqmVUYUnnGt2afdJr+NZhSozoMqf2KvpdZrbGOREClRnU1JDWeiduM5MnfXu1W1zupEwohnUMhpHPoFKTgXku6V+TRfC0J9AW3e2VDEiepF1xnqeTmvXBLyRU5kIe3VOIuuj1/42xOPg43J8mBPLxFN3f5NnNk4dnrIUWQVutVMX9yIA9v+dbdCGD9HRYs7OdMGFkLexkLu2kTv6gDE7on6xLIzoV5MT/myXyZN/MnBzUeCRe1EeBuKeXFWpzy0gqUhT8SYEggg38fUqbzfVlk56PgiJgv82b+5EAe5FKuAn8BlroHpg15xLsAAAAASUVORK5CYII=" InformativeScreenshot="c101da087b126a4de38c50aec996dd22.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='profDetails' title='GINESYS' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
                         </uix:NClick.Target>
@@ -1425,15 +1425,15 @@
                           </uix:VerifyExecutionOptions>
                         </uix:NClick.VerifyOptions>
                       </uix:NClick>
-                      <uix:NCheckState DisplayName="Check App State 'IMG'" sap:VirtualizedContainerService.HintSize="854,516" sap2010:WorkflowViewState.IdRef="NCheckState_14" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Timeout="300" Version="V3">
+                      <uix:NCheckState DisplayName="Check App State 'IMG'" sap:VirtualizedContainerService.HintSize="854,489" sap2010:WorkflowViewState.IdRef="NCheckState_14" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Timeout="300" Version="V3">
                         <uix:NCheckState.IfExists>
-                          <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="400,290" sap2010:WorkflowViewState.IdRef="Sequence_39">
+                          <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="400,272" sap2010:WorkflowViewState.IdRef="Sequence_39">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <uix:NClick ClickType="Single" DisplayName="Click 'Close'" sap:VirtualizedContainerService.HintSize="338,166" sap2010:WorkflowViewState.IdRef="NClick_40" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Version="V3">
+                            <uix:NClick ClickType="Single" DisplayName="Click 'Close'" sap:VirtualizedContainerService.HintSize="338,157" sap2010:WorkflowViewState.IdRef="NClick_40" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a9284b4a-af53-4f37-9c10-d697ce0c20c8" Version="V3">
                               <uix:NClick.Target>
                                 <uix:TargetAnchorable DesignTimeRectangle="1898, 1008, 24, 22" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Close'" FullSelectorArgument="&lt;ctrl name='GINESYS - Google Chrome (Incognito)' role='pane' /&gt;&lt;ctrl name='Google Chrome' role='pane' /&gt;&lt;ctrl name='Downloads bar' role='grouping' /&gt;&lt;ctrl name='Close' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='GINESYS - Google Chrome (Incognito)' role='pane' /&gt;&lt;ctrl name='Google Chrome' role='pane' /&gt;&lt;ctrl name='Downloads bar' role='grouping' /&gt;&lt;ctrl name='Close' role='push button' automationid='' check:text='Close' /&gt;" Guid="5f41c09d-4773-4198-9df9-85de35470f2a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABwAAAAaCAYAAACkVDyJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC/SURBVEhL7ZOxDoIwEIZ5KRnYdOCNNegGwmiQRyG6H/lRyFEKuTYHYejwJeT+tl+PttEpTmhPglCdIFTnmMJb9qD8WdH5ks4y1JBds/sssyESFmVF7edLr7qZSPGNGjKM4XOWEAn7hd+/hQcplyHjG1lDfIam1EcGnC4Nl/rIgLvw39nQ6WZCLkNn/Pe6SOWXxjizvuYhFQnHZ2GcGZfiLfI5S4iEePiQ2rpADRnGmJkNp0ujQRCqE4Tq7CxMqAM5/A88IFbWJQAAAABJRU5ErkJggg==" InformativeScreenshot="51a586cc5510c758caee9c4a45d1ed84.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='GINESYS - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V1" Visibility="Interactive" />
                               </uix:NClick.Target>
@@ -1441,7 +1441,7 @@
                           </Sequence>
                         </uix:NCheckState.IfExists>
                         <uix:NCheckState.IfNotExists>
-                          <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="400,114" sap2010:WorkflowViewState.IdRef="Sequence_40">
+                          <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="400,105" sap2010:WorkflowViewState.IdRef="Sequence_40">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
