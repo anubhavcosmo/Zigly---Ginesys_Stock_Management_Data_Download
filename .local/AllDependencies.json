@@ -20611,15 +20611,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
+    "C:\\Users\\anubhav.anand\\.nuget\\packages\\": {},
+    "C:\\Users\\anubhav.anand\\AppData\\Local\\UiPath\\NugetFallbackFolder": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "Ginesys_Stock_Management_Data_Download",
       "projectName": "Ginesys_Stock_Management_Data_Download",
-      "projectPath": "C:\\Users\\Administrator\\Documents\\UiPath\\Ginesys_Stock_Management_Data_Download\\.local",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Documents\\UiPath\\Ginesys_Stock_Management_Data_Download\\.local"
+      "projectPath": "C:\\Users\\anubhav.anand\\Documents\\UiPath\\Ginesys_Stock_Management_Data_Download\\.local",
+      "packagesPath": "C:\\Users\\anubhav.anand\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\anubhav.anand\\Documents\\UiPath\\Ginesys_Stock_Management_Data_Download\\.local",
+      "fallbackFolders": [
+        "C:\\Users\\anubhav.anand\\AppData\\Local\\UiPath\\NugetFallbackFolder"
+      ]
     },
     "frameworks": {
       "net6.0-windows7.0": {
@@ -20650,7 +20654,7 @@
             "version": "[22.10.3, 22.10.3]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\anubhav.anand\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
       }
     },
     "runtimes": {
