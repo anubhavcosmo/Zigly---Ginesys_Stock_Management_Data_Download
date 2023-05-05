@@ -104,7 +104,7 @@ try:
 
     #### READ CONFIG FILE
     with open(
-        "C:/Users/"+os.getlogin()+"/Documents/Common/zigly_analytics_database_config.json"
+        "D:/Users/"+os.getlogin()+"/Documents/Common/zigly_analytics_database_config.json"
     ) as config_file:
         data = json.load(config_file)
     #### GET DATA FROM CONFIG FILE
@@ -115,7 +115,7 @@ try:
 
     #### READ CONFIG FILE
     with open(
-        "C:/Users/"+os.getlogin()+"/Documents/Common/common_path.json"
+        "D:/Users/"+os.getlogin()+"/Documents/Common/common_path.json"
     ) as config_file:
         data = json.load(config_file)
     #### GET DATA FROM CONFIG FILE

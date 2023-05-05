@@ -10,11 +10,11 @@ from sqlalchemy import create_engine
 from datetime import datetime
 import pandas as pd
 import win32com.client as win32
-
+import os
 
 #### READ CONFIG FILE
 with open(
-    "C:/Users/Administrator/Documents/Common/zigly_analytics_database_config.json"
+    "D:/Users/"+os.getlogin()+"/Documents/Common/zigly_analytics_database_config.json"
 ) as config_file:
     data = json.load(config_file)
 #### GET DATA FROM CONFIG FILE

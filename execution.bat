@@ -1,1 +1,1 @@
-"C:\Users\%USERNAME%\AppData\Local\Programs\UiPath\Studio\UiRobot.exe" -file "C:\Users\%USERNAME%\Documents\UiPath\Ginesys_Stock_Management_Data_Download\Ginesys_Stock_Management_Data_Download.1.0.7.nupkg"
+"D:\Users\%USERNAME%\AppData\Local\Programs\UiPath\Studio\UiRobot.exe" -file "D:\Users\%USERNAME%\Documents\UiPath\Ginesys_Stock_Management_Data_Download\Ginesys_Stock_Management_Data_Download.1.0.10.nupkg"
